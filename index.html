@@ -21,24 +21,39 @@
 </head>
 <body>
 <div class="container-fluid">
-  <div class="logo"><img src="images/Løveslogostempel.png" width="150%" alt="logo"></div>
-  <div class="row">
+  <div class="logo"><img src="images/Løveslogostempel.png"  alt="logo"></div>
+  <div class="row ">
     <div> <a href="bogcafe.php">
-      <div class="col-md-6 col-xs-12 bogcafelink">
+      <div class="col-md-6 bogcafelink col-xs-hidden">
         <div class="textbox textbox1">
-          <h3>Løve's Bog og Vincafé</h3>
-          <p>Læs en af de mange forskellige bøger, <br> mens du nyder en af vores mange vine fra hele verden</p>
+          <h3 class="col-xs-hidden">Løve's Bog og Vincafé</h3>
+          <p class="col-xs-hidden">Læs en af de mange forskellige bøger, <br>
+            mens du nyder en af vores mange vine fra hele verden</p>
         </div>
       </div>
       </a> <a href="vincafe.php">
-      <div class="col-md-6 col-xs-12 vincafelink">
-       <div class="textbox textbox2">
-          <h3>Vincaféen</h3>
-          <p>Smag over 100 forskellige vine fra hele verden!</p>
+      <div class="col-md-6 vincafelink col-xs-hidden">
+        <div class="textbox textbox2 col-xs-hidden">
+          <h3 class="col-xs-hidden">Vincaféen</h3>
+          <p class="col-xs-hidden">Smag over 100 forskellige vine fra hele verden!</p>
         </div>
       </div>
       </a> </div>
   </div>
+  <div class="row"> <a href="bogcafe.php">
+    <div class="col-xs-12 col-md-hidden bogcafelink">
+      <div class="textboxm">
+        <h3>Løves bog og vincafé</h3>
+      </div>
+    </div>
+    </a> </div>
+  <div class="row"> <a href="vincafe.php">
+    <div class="col-xs-12 col-md-hidden vincafelink">
+      <div class="textboxm">
+        <h3>Vincaféen</h3>
+      </div>
+    </div>
+    </a> </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 

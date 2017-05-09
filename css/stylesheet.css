@@ -71,5 +71,47 @@ body{
 	z-index: 50;
 }
 .logo img{
-	margin-left:-20%;
+	margin-left:-6vw;
+	width:30vw;
+}
+@media screen and (max-width: 767px){
+	.bogcafelink{
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	}
+	.bogcafelink:hover{
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	}
+	.vincafelink{
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/vincafe1.jpg);
+
+}
+.vincafelink:hover{
+	height: 50vh;
+	width: 100%;
+
+}
+	.logo img{
+		width: 75vw;
+		margin-left: -30vw;
+		margin-top: 5vh;
+	}
+
+	.textboxm{
+		width: 100vw;
+		height:10vh;
+		background-color: rgba(0,0,0,0.85);
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: bold;
+		margin-top: 30vh;
+		color: white;
+		margin-left:20vw;
+		padding-top:1vh;
+		padding-left:5vw;
+	}
 }
