@@ -1,10 +1,9 @@
-body{
+body {
 	width: 100%;
 	overflow: hidden;
-	
 }
-
-.bogcafelink{
+/*Forsiden på labtop*/
+.bogcafelink {
 	height: 100vh;
 	width: 50%;
 	background-image: url(../images/bogcafe2.jpg);
@@ -12,41 +11,39 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.bogcafelink:hover{
+.bogcafelink:hover {
 	height: 100vh;
 	width: 50%;
 	background-image: url(../images/IMG_0760.JPG);
-
 }
-.textbox1{
-	height:15vh;
+.textbox1 {
+	height: 15vh;
 	width: 52vw;
-	background-color:rgba(0,0,0,0.85);
+	background-color: rgba(0,0,0,0.85);
 	color: white;
 	float: left;
 	margin-left: -2vw;
 	margin-top: 85vh;
 	text-align: center;
 }
-.textbox h3{
+.textbox h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
 }
-.textbox p{
+.textbox p {
 	font-family: 'ubuntu', sans-serif;
-	
 }
-.textbox2{
-	height:15vh;
+.textbox2 {
+	height: 15vh;
 	width: 52vw;
-	background-color:rgba(0,0,0,0.85);
+	background-color: rgba(0,0,0,0.85);
 	color: white;
 	float: left;
 	margin-left: -2vw;
 	margin-top: 85vh;
 	text-align: center;
 }
-.vincafelink{
+.vincafelink {
 	height: 100vh;
 	width: 50%;
 	background-position: center;
@@ -54,7 +51,7 @@ body{
 	background-size: cover;
 	background-image: url(../images/vincafe2.jpg);
 }
-.vincafelink:hover{
+.vincafelink:hover {
 	height: 100vh;
 	width: 50%;
 	background-position: center;
@@ -62,56 +59,78 @@ body{
 	background-size: cover;
 	background-image: url(../images/vincafe1.jpg);
 }
-.logo{
+.logo {
 	position: fixed;
 	height: 15vw;
 	width: 15vw;
-	margin-left:41.5vw;
-	margin-top: 36vh;
+	margin-left: 41.5vw;
+	margin-top: 25vh;
 	z-index: 50;
 }
-.logo img{
-	margin-left:-6vw;
-	width:30vw;
+.logo img {
+	margin-left: -2vw;
+	width: 20vw;
 }
-@media screen and (max-width: 767px){
-	.bogcafelink{
+
+@media screen and (max-width:767px) {
+.vincafelink {
 	height: 50vh;
 	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	}
-	.bogcafelink:hover{
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	}
-	.vincafelink{
-	height: 50vh;
-	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-image: url(../images/vincafe1.jpg);
-
 }
-.vincafelink:hover{
+.bogcafelink {
 	height: 50vh;
 	width: 100%;
-
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-	.logo img{
-		width: 75vw;
-		margin-left: -30vw;
-		margin-top: 5vh;
-	}
-
-	.textboxm{
-		width: 100vw;
-		height:10vh;
-		background-color: rgba(0,0,0,0.85);
-		font-family: 'Ubuntu', sans-serif;
-		font-weight: bold;
-		margin-top: 30vh;
-		color: white;
-		margin-left:20vw;
-		padding-top:1vh;
-		padding-left:5vw;
-	}
+.bogcafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vincafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.textbox1 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+	float: right;
+	margin-top: 10vh;
+	margin-right: -3vw;
+}
+.textbox2 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+	float: left;
+	margin-top: 30vh;
+	margin-left: -5vw;
+}
+.logo {
+	position: fixed;
+	margin-left: 32vw;
+	margin-top: 47vw;
+	z-index: 50;
+}
+.logo img {
+	margin-left: -2vw;
+	width: 35vw;
+}
 }
