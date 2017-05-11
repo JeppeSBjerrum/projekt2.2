@@ -26,7 +26,9 @@
   </nav>
   <!--Stor video-->
   <div id="vinvideo" class="storvideo">
-  	<video src="video/bogcafevideo.mp4" autoplay controls></video>
+  <video loop autoplay>
+  <source src="video/vincafe.mp4" type="video/mp4">
+</video>
   </div>
   <!--Velkomsttekst-->
   <div id="vinvelkomstid">
