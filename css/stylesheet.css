@@ -1,5 +1,4 @@
-body {
-	width: 100%;
+#indexsite body {
 	overflow: hidden;
 }
 /*Forsiden på labtop*/
@@ -147,8 +146,4 @@ margin: auto;
 padding: 40px;}
 .carousel-caption p {
 	text-align: left;
-}
-
-body {
-	overflow: auto;
 }
