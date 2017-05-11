@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html id="vinsite" lang="da">
   <head>
@@ -17,7 +16,7 @@
   <body>
   <div class="container-fluid">
   <!--Logo og nav-->
-  <img src="images/Løveslogostempel.png" alt="">
+  <img src="images/Løveslogostempel.png" alt="" id="logo">
   <nav>
   <ul>
   	<li><a href="bogcafe.php">Bogcafé</a></li>
@@ -26,11 +25,11 @@
   </ul>
   </nav>
   <!--Stor video-->
-  <div>
-  	
+  <div id="vinvideo" class="storvideo">
+  	<video src="video/bogcafevideo.mp4" autoplay controls></video>
   </div>
   <!--Velkomsttekst-->
-  <div id="vinvelkommenid">
+  <div id="vinvelkomstid">
   <div class="container">
   	<h1>Velkommen til Løve's Vincafé</h1>
   	<p>Åbningstider<br>

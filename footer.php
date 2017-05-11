@@ -1,5 +1,5 @@
 <footer>
-<img src="images/mammismaps.JPG" alt="">
+<img class="maps" src="images/mammismaps.JPG" alt="">
 <div class="container">
 <div class="row">
 <div class="col-sm-3">
@@ -9,7 +9,6 @@
 Nørregade 32<br>
 
 8000 Århus C<br>
-<br>
 <br>
 
 
@@ -58,7 +57,11 @@ Lørdag: 15-24 <br>
 Søndag: Lukket 
 	</p>
 </div>
+
 	
+</div>
+<div class="text-center">
+	Credit: Music by 
 </div>
 </div>
 </footer>
