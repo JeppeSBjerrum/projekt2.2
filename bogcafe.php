@@ -2,7 +2,9 @@
  
   <!--Stor video-->
   <div id="bogvideo" class="storvideo">
-  	
+  <video loop autoplay>
+  <source src="video/vincafe.mp4" type="video/mp4">
+</video>
   </div>
   <!--Velkomsttekst-->
   <div class="velkomstkasse">

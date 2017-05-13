@@ -143,12 +143,15 @@ body {
 .abningstider {
 	border: 2px solid black;
 }
-
-#vinsite .container-fluid {
-	padding: 0;}
-
 .storvideo {
-	height: 97vh;
+	height: 99vh;
+	z-index: -100;
+}
+.storvideo video {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -100;
 }
 .velkomstkasse {
 	background-image: url(../images/paper.png);
@@ -156,30 +159,20 @@ body {
 	margin-top: -60px;
 	padding-top: 100px;
 	padding-bottom: 50px;
-	z-index:3;
 }
-
-
 #menuid {
 	background-color: dimgray;
 	color: white;
 	padding: 50px;
-	z-index: 3;}
-
+	
+}
 .carousel-caption {
 	max-width: 600px;
 	margin: auto;
-
 }
 .menucarousel {
 	margin-bottom: 30px;
 }
-
-.storvideo video{
-	z-index: -10;
-	width: 100%;
-}
-
 
 #menuindhold {
 	margin-top: 20px;
@@ -205,7 +198,7 @@ nav ul {
 	padding: 0px;
 }
 nav ul li {
-	z-index: 3;
+	
 	float: left;
 	padding: 10px 30px;
 }
@@ -214,14 +207,13 @@ nav a {
 	font-size: 18px;
 }
 nav a:hover, nav a:visited:hover {
-	color: grey;
-	text-decoration: none;
-
+	color: white;
 }
 #logo {
 	float: left;
 	width: 300px;
-	z-index: 10;
+	position: absolute;
+	
 }
 /*Button custom*/
 .btn-custom {
@@ -243,8 +235,6 @@ footer .row {
 footer {
 	background-color: rosybrown;
 }
-
-
 /*VINCAFE UNDERSIDEN*/
 #vinsite .container-fluid {
 	padding: 0;
@@ -255,7 +245,6 @@ footer {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-
 #vinmenucarousel .item img {
 	min-width: 300px;
 }

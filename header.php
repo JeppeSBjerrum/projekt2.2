@@ -16,8 +16,9 @@
   <body>
   <div class="container-fluid">
   <!--Logo og nav-->
-  <img src="images/Løveslogostempel.png" alt="" id="logo">
   <nav>
+  <img src="images/Løveslogostempel.png" alt="" id="logo">
+  
   <ul>
   	<li><a href="bogcafe.php">Bogcafé</a></li>
   	<li><a href="vincafe.php">Vincafé</a></li>
