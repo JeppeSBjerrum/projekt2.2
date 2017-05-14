@@ -1,4 +1,6 @@
-<?php include("header.php")?>
+<?php $pagetitle = 'Kontakt Løve´s'; 
+$pagelogo = 'images/loeves.png';
+include("header.php")?>
 
 <div class="navbillede"></div>
 <div class="velkomstkasse">

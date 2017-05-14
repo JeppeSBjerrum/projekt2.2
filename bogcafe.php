@@ -1,4 +1,6 @@
-<?php include("header.php")?>
+<?php $pagetitle = 'Løve´s Bog- og Vincafé'; 
+$pagelogo = 'images/bogcafelogo.png';
+include("header.php")?>
  
   <!--Stor video-->
   <div id="bogvideo" class="storvideo">

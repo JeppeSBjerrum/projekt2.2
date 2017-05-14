@@ -1,4 +1,7 @@
-<?php include( "header.php" );?>
+<?php $pagetitle = 'Vincaféen'; 
+$pagelogo = 'images/vincafelogo.png';
+include( "header.php" );
+?>
   <!--Stor video-->
   <div id="vinvideo" class="storvideo">
   <video loop autoplay>
