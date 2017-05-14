@@ -11,10 +11,9 @@ Nørregade 32<br>
 8000 Århus C<br>
 <br>
 
-
-27 83 16 33<br>
-
-aa-cafe@loeves.dk<br>
+<a href="callto:+4527831633">27 83 16 33</a>
+<br>
+<a href="mailto:">aa-cafe@loeves.dk</a><br>
 <br>
 
 	Åbningstider <br>
@@ -36,10 +35,10 @@ Borggade 14<br>
 8000 Århus C
 <br>
 <br>
-
-52 17 50 16<br>
-
-vincafeen@loeves.dk<br>
+<a href="callto:+4552175016">52 17 50 16</a>
+<br>
+<a href="mailto:vincafeen@loeves.dk">
+vincafeen@loeves.dk</a><br>
 <br>
 Åbningstider <br>
 
