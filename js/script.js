@@ -5,3 +5,4 @@ $('#bogeventscarousel').hover(function(){
 },function(){
    $("#bogeventscarousel").carousel('cycle');
 });
+
