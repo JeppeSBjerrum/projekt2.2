@@ -246,7 +246,11 @@ footer .row {
 	margin-top: 30px;
 }
 footer {
-	background-color: rosybrown;
+	background-color:rgba(91,10,40,1.00);
+	color: white;
+}
+footer a, footer a:hover, footer a:visited:hover {
+	color: white;
 }
 
 /*VINCAFE UNDERSIDEN*/
