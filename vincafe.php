@@ -1,5 +1,5 @@
 <?php $pagetitle = 'Vincaféen'; 
-$pagelogo = 'images/vincafelogo.png';
+$pagelogo = 'images/loeveslogoinvert2.png';
 include( "header.php" );
 ?>
   <!--Stor video-->

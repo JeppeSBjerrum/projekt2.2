@@ -1,6 +1,6 @@
 <?php
 $pagetitle = 'Løve´s Bog- og Vincafé';
-$pagelogo = 'images/bogcafelogo.png';
+$pagelogo = 'images/loeveslogoinvert.png';
 include( "header.php" )
 ?>
 
