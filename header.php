@@ -20,6 +20,7 @@
   <img src="<?php echo $pagelogo;?>" alt="" id="logo">
   
   <ul>
+  <li class="lydknapper"><img src="images/playbutton.png" alt="" onClick="playAudio"> <img src="images/mutebutton2.png" alt="" onClick="pauseAudio"></li> 
   	<li><a href="vincafe.php">Vincafé</a></li>
   	<li><a href="bogcafe.php">Bog- og Vincafé</a></li>
   	<li><a href="kontakt.php">Kontakt</a></li>

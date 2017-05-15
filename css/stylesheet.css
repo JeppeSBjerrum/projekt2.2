@@ -152,7 +152,12 @@ a:hover, a:visited:hover {
 /*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
 .abningstider {
 	border: 2px solid black;
-	
+	}
+.lydknapper img{
+	width: 30px;
+}
+.lydknapper img:hover{
+	cursor: pointer;
 }
 .storvideo {
 	height: 100vh;

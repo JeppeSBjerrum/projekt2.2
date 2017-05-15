@@ -5,3 +5,14 @@ $('#bogeventscarousel').hover(function(){
 },function(){
    $("#bogeventscarousel").carousel('cycle');
 });
+
+		//js for baggrundslyd
+		var aud = document.getElementById( "music" );
+
+		function playAudio() {
+			aud.play();
+		}
+
+		function pauseAudio() {
+			aud.pause();
+		}

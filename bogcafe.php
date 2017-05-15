@@ -1,6 +1,6 @@
 <?php
 $pagetitle = 'Løve´s Bog- og Vincafé';
-$pagelogo = 'images/loeveslogoinvert.png';
+$pagelogo = 'images/loeveslogoinvert2.png';
 include( "header.php" )
 ?>
 
@@ -9,7 +9,7 @@ include( "header.php" )
 	<video loop autoplay>
 		<source src="video/bogcafe.mp4" type="video/mp4">
 	</video>
-	<audio autoplay loop>
+	<audio autoplay loop id="music">
   <source src="audio/bensound-thejazzpiano.mp3" type="audio/mpeg">
 </audio>
 </div>
