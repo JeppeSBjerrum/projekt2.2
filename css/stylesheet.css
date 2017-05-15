@@ -253,6 +253,7 @@ footer a, footer a:hover, footer a:visited:hover {
 	color: white;
 }
 
+
 /*VINCAFE UNDERSIDEN*/
 #vinsite .container-fluid {
 	padding: 0;
@@ -276,6 +277,15 @@ footer a, footer a:hover, footer a:visited:hover {
 	width:200px;}
 .mereloeves img {
 	width: 200px;
+}
+.kontaktrow {
+	border-top: 2px solid black;
+	padding-top: 20px;
+}
+@media screen and (max-width:767px) {
+	.kontaktoplys {
+		text-align: center;
+	}
 }
 /*BOGCAFE UNDERSIDE*/
 .bogmenuimg {

@@ -139,6 +139,7 @@ Valget af bøger foretages i fællesskab og kan købes i bogcafeen. Du kan tilme
 		</div>
 	</div>
 </div>
+<!--FOOTER-->
 <footer>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.783941425167!2d10.207170815946487!3d56.16084018066449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f9672508429%3A0x496f81dc47a6f9cd!2zTMO4dmXigJlzIEJvZy0gb2cgVmluQ2Fmw6k!5e0!3m2!1sda!2sdk!4v1494836083339" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 

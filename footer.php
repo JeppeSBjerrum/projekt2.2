@@ -21,7 +21,7 @@ Mandag-Fredag: 9-24 <br>
 Lørdag: 10-24 <br>
 
 Søndag: 10-18 </p>
-<a href="#"><img src="images/fcicon.png" alt=""></a>
+<a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
 </div>
 <div class="col-xs-6 col-sm-3">
 	<h3>Vincaféen</h3>
@@ -54,7 +54,9 @@ Lørdag: 15-24 <br>
 
 Søndag: Lukket 
 	</p>
-	<a href="#"><img src="images/fcicon.png" alt=""></a>
+	<a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
+	
+	<a href="#"><img src="images/iglogo.png" width="40px" alt=""></a>
 </div>
 <div class="col-sm-3">
 <h3>Sitemap</h3>	

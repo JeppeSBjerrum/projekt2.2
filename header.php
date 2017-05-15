@@ -20,8 +20,8 @@
   <img src="<?php echo $pagelogo;?>" alt="" id="logo">
   
   <ul>
-  	<li><a href="bogcafe.php">Bogcafé</a></li>
   	<li><a href="vincafe.php">Vincafé</a></li>
+  	<li><a href="bogcafe.php">Bog- og Vincafé</a></li>
   	<li><a href="kontakt.php">Kontakt</a></li>
   </ul>
   </nav>
