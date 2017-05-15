@@ -5,10 +5,3 @@ $('#bogeventscarousel').hover(function(){
 },function(){
    $("#bogeventscarousel").carousel('cycle');
 });
-
-<<<<<<< Updated upstream
-=======
-function vvinkort() {
-	document.getElementById("menuindhold") = "hej";
-},
->>>>>>> Stashed changes
