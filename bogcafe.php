@@ -7,7 +7,7 @@ include( "header.php" )
 <!--Stor video-->
 <div id="bogvideo" class="storvideo">
 	<video loop autoplay>
-		<source src="video/vincafe.mp4" type="video/mp4">
+		<source src="video/bogcafe.mp4" type="video/mp4">
 	</video>
 </div>
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->
