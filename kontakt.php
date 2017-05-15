@@ -17,10 +17,10 @@ include( "header.php" )
 			<div class="col-sm-5 kontaktoplys">
 				<div class="row kontaktrow">
 					<img src="images/bogcafelogo.png" alt=""><br>
-					</div><br>
-<br>
+				</div><br>
+				<br>
 
-					<div class="row">
+				<div class="row">
 					<div class="col-sm-7">
 
 						<p>Løve's Bog- og VinCafé<br> Nørregade 32<br> 8000 Århus C<br>
@@ -32,15 +32,15 @@ include( "header.php" )
 						<p>Åbningstider <br> Mandag-Fredag: 9-24 <br> Lørdag: 10-24 <br> Søndag: 10-18 </p>
 					</div>
 				</div><br>
-<br>
+				<br>
 
 				<div class="row kontaktrow">
-				<img src="images/vincafelogo.png" alt="">
+					<img src="images/vincafelogo.png" alt="">
 				</div><br>
-<br>
-<div class="row">
+				<br>
+				<div class="row">
 					<div class="col-sm-7">
-	
+
 
 						<p> Vincaféen<br> Borggade 14<br> 8000 Århus C
 							<br>

@@ -7,6 +7,9 @@ include( "header.php" );
   <video loop autoplay>
   <source src="video/vincafe.mp4" type="video/mp4">
 </video>
+ <audio autoplay loop>
+  <source src="audio/bensound-love.mp3" type="audio/mpeg">
+</audio>
   </div>
  
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->

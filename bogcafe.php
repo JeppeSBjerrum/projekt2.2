@@ -9,6 +9,9 @@ include( "header.php" )
 	<video loop autoplay>
 		<source src="video/bogcafe.mp4" type="video/mp4">
 	</video>
+	<audio autoplay loop>
+  <source src="audio/bensound-thejazzpiano.mp3" type="audio/mpeg">
+</audio>
 </div>
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->
 <div class="velkomstkasse">
