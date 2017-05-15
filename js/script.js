@@ -7,7 +7,7 @@ $('#bogeventscarousel').hover(function(){
 });
 
 		//js for baggrundslyd
-		var aud = document.getElementById( "music" );
+		var aud = document.getElementById("music");
 
 		function playAudio() {
 			aud.play();
@@ -16,3 +16,5 @@ $('#bogeventscarousel').hover(function(){
 		function pauseAudio() {
 			aud.pause();
 		}
+
+
