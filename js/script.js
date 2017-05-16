@@ -1,21 +1,21 @@
 // JavaScript Document
 //Pauser Carousel på Bogcafesiden, når musen :hover over elementet
-$('#bogeventscarousel').hover(function(){
-   $("#bogeventscarousel").carousel('pause');
-},function(){
-   $("#bogeventscarousel").carousel('cycle');
+$('#bogeventscarousel').hover(function () {
+	$("#bogeventscarousel").carousel('pause');
+}, function () {
+	$("#bogeventscarousel").carousel('cycle');
 });
 
-		//js for baggrundsmusik og knapperne i nav
-		var aud = document.getElementById("music");
+//js for baggrundsmusik og knapperne i nav
+var aud = document.getElementById("music");
 
-		function playAudio() {
-			aud.play();
-		}
+function playAudio() {
+	aud.play();
+}
 
-		function pauseAudio() {
-			aud.pause();
-		};
+function pauseAudio() {
+	aud.pause();
+};
 
 //MENUKORT PÅ VINCAFESIDEN
 //variabler for indholdet på menuen
@@ -25,16 +25,18 @@ var vindrikke = "";
 var vinmad = "";
 
 
-function vvinkort(){
-	document.getElementById("menuindhold").innerHTML = vinvinkortet ;
-};
-function vlordagsmad(){
-	document.getElementById("menuindhold").innerHTML = vinlordagsmad ;
-};
-function vdrikke(){
-	document.getElementById("menuindhold").innerHTML = vindrikke ;
-};
-function vmad(){
-	document.getElementById("menuindhold").innerHTML = vinmad;
+function vvinkort() {
+	document.getElementById("menuindhold").innerHTML = vinvinkortet;
 };
 
+function vlordagsmad() {
+	document.getElementById("menuindhold").innerHTML = vinlordagsmad;
+};
+
+function vdrikke() {
+	document.getElementById("menuindhold").innerHTML = vindrikke;
+};
+
+function vmad() {
+	document.getElementById("menuindhold").innerHTML = vinmad;
+};
