@@ -184,7 +184,9 @@ a:hover, a:visited:hover {
 .menucarousel {
 	margin-bottom: 30px;
 }
-
+table {
+	margin-bottom: 20px;
+}
 #menuindhold {
 	margin-top: 20px;
 }
