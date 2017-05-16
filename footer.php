@@ -58,7 +58,7 @@ Søndag: Lukket
 	
 	<a href="#"><img src="images/iglogo.png" width="40px" alt=""></a>
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 hidden-xs">
 <h3>Sitemap</h3>	
 <a href="index.html">Forside</a><br>
 
@@ -69,17 +69,17 @@ Søndag: Lukket
 <a href="kontakt.php">Kontakt</a>
 </div>
 
-	<div class="col-sm-3">
-	
+	<div class="col-sm-3 col-xs-12">
+	<h3>Her skal der være noget</h3>
 </div>
 	
 </div>
-<div class="text-center">
+<div class="text-center col-xs-12">
 	Credit: Music by http://www.bensound.com
 	<br>
 <br>
 
-	<?php echo date('Y');?>
+	Løve's - <?php echo date('Y');?>
 </div>
 </div>
 </footer>

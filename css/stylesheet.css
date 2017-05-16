@@ -150,7 +150,9 @@ a:hover, a:visited:hover {
 /*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
 .abningstider {
 	border: 2px solid black;
+	padding: 20px;
 }
+
 .lydknapper img {
 	width: 30px;
 }
@@ -186,13 +188,17 @@ a:hover, a:visited:hover {
 	border-top: 2px solid white;
 	padding-top: 10px;
 }
+tr {
+	line-height: 2em;
+}
 #menuindhold {
 	margin-top: 40px;
+	line-height: 1.75em;
 }
 .tavle {
 	background-color: rgba(51,51,51,1.00);
 	color: white;
-	padding: 40px 20px;
+	padding: 80px 20px 40px;
 }
 .tavle a {
 	color: white;
@@ -202,7 +208,7 @@ a:hover, a:visited:hover {
 }
 /*sort kasse styling*/
 .boks {
-	background-color: rgba(0,0,0,0.60);
+	background-color: rgba(0,0,0,0.70);
 	color: white;
 	padding: 40px;
 }
@@ -238,13 +244,22 @@ nav a:hover, nav a:visited:hover {
 	border: 2px solid white;
 	color: white;
 	border-radius: 0px;
-	padding: 10px;
 	margin: 0px;
+	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .btn-custom:hover, .btn-custom:visited:hover {
 	color: white;
 	cursor: pointer;
 	border: 2px solid grey;
+}
+
+#menu h4 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
 }
 /*footer*/
 footer .row {
@@ -256,6 +271,12 @@ footer {
 }
 footer a, footer a:hover, footer a:visited:hover {
 	color: white;
+}
+footer .text-center {
+	border-top: 2px solid white;
+	padding-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 /*VINCAFE UNDERSIDEN*/
 #vinsite .container-fluid {
@@ -291,17 +312,17 @@ footer a, footer a:hover, footer a:visited:hover {
 .kontaktoplys {
 	text-align: center;
 }
+	
 }
 /*BOGCAFE UNDERSIDE*/
 .bogmenuimg {
 	padding-bottom: 30px;
 }
-<<<<<<< HEAD
-=======
+.bogmenuimg img {
+	margin: auto;}
 
 /*GOOGLE MAPS*/
 #map {
         height: 450px;
 	
 }
->>>>>>> master

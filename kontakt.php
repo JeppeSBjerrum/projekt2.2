@@ -56,7 +56,7 @@ include( "header.php" )
 			</div>
 
 			<div class="col-sm-6">
-				<p>PHP kontaktformular her</p>
+				<p>hjælp</p>
 			</div>
 		</div>
 	</div>
