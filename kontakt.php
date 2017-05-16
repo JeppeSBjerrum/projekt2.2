@@ -16,7 +16,7 @@ include( "header.php" )
 
 			<div class="col-sm-5 kontaktoplys">
 				<div class="row kontaktrow">
-					<img src="images/bogcafelogo.png" alt=""><br>
+					<img src="images/bogcafelogosort.png" alt=""><br>
 				</div><br>
 				<br>
 
@@ -29,13 +29,13 @@ include( "header.php" )
 						</p>
 					</div>
 					<div class="col-sm-5">
-						<p>Åbningstider <br> Mandag-Fredag: 9-24 <br> Lørdag: 10-24 <br> Søndag: 10-18 </p>
+						<p><strong>Åbningstider</strong> <br> Mandag-Fredag: 9-24 <br> Lørdag: 10-24 <br> Søndag: 10-18 </p>
 					</div>
 				</div><br>
 				<br>
 
 				<div class="row kontaktrow">
-					<img src="images/vincafelogo.png" alt="">
+					<img src="images/vincafelogosort.png" alt="">
 				</div><br>
 				<br>
 				<div class="row">
@@ -49,7 +49,7 @@ include( "header.php" )
 						</p>
 					</div>
 					<div class="col-sm-5">
-						<p>Åbningstider <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
+						<p><strong>Åbningstider</strong> <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
 						</p>
 					</div>
 				</div>

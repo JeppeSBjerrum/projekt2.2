@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
    <!--title-->
     <title> <?php echo $pagetitle;?> </title>
+    <!--Skrifttyper-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <!-- Bootstrap og stylesheet -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/stylesheet.css">
@@ -21,8 +23,8 @@
   
   <ul>
   <li class="lydknapper"><img src="images/playbutton.png" alt="afspil musik" onClick="playAudio()"> <img src="images/mutebutton2.png" alt="sluk musikken" onClick="pauseAudio()"></li> 
-  	<li><a href="vincafe.php">Vincafé</a></li>
-  	<li><a href="bogcafe.php">Bog- og Vincafé</a></li>
+  		<li><a href="bogcafe.php">Bog- og Vincafé</a></li>
+  		<li><a href="vincafe.php">Vincaféen</a></li>
   	<li><a href="kontakt.php">Kontakt</a></li>
   </ul>
   </nav>
