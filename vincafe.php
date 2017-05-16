@@ -1,6 +1,6 @@
 <?php
 $pagetitle = 'Vincaféen';
-$pagelogo = 'images/loeveslogoinvert2.png';
+$pagelogo = 'images/vincafelogohvidskygge.png';
 include( "header.php" );
 ?>
 <!--Stor video-->
@@ -109,7 +109,7 @@ include( "header.php" );
 				<div id="menuindhold">
 					<h4 class="col-xs-12">Vinkort</h4>
 					<p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> 
-					<a href="pdfnavn" target="_blank" class="btn-custom">Hent en pdf-fil af vores vinkort</a>
+					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom">Hent en pdf-fil af vores vinkort</a>
 					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
 					</p>
 				</div>

@@ -21,7 +21,7 @@ function pauseAudio() {
 //variabler for indholdet på menuen
 //VINCAFÉ UNDERSIDEN
 //Menupunkt: Vinkort
-var vinvinkortet = '<h4 class="col-xs-12">Vinkort</h4><p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> <a href="pdfnavn" target="_blank" class="btn-custom">Hent en pdf-fil af vores vinkort</a><img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p>';
+var vinvinkortet = '<h4 class="col-xs-12">Vinkort</h4><p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> <a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom">Hent en pdf-fil af vores vinkort</a><img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p>';
 //Menupunkt: Lørdagsmad
 var vinlordagsmad = '<h4>Lørdagsmad på Vincaféen</h4><p>8. april: And med citronmelisse, jordskokker og løg<br><br>22. april: Okse med persille, persillerod og svampe<br><br>6. maj: Kylling med asparges og spinat<br><br>20. maj: Lam med blomkål, gulerødder og salvie<br><br>3. juni: Kalv med ærter, løg og spidskål</p><br><p><strong>Bordbestilling</strong> sker i Vincaféen eller på vincafeen@loeves.dk<br>Efter først-til-mølle princip</p>';
 //Menupunkt: Drikke
@@ -31,7 +31,16 @@ var vinmad = '<h4 class="col-xs-12">Vores madudvalg</h4><div class="col-sm-6"><t
 
 //BOG OG VINCAFÉ UNDERSIDEN
 //Menupunkt: 
+var bogvarmt = ""
 
+//Menupunkt: 
+var bogkoldt = ""
+
+//Menupunkt: 
+var bogmad = ""
+
+//Menupunkt: 
+var bogvinkort = ""
 //FUNKTIONER DER INDSÆTTER VARIABLERNE I ID=MENUINDHOLD
 //VINCAFE UNDERSIDEN
 
@@ -53,19 +62,19 @@ function vmad() {
 };
 
 //BOG OG VINCAFE UNDERSIDE
-
-function bvinkort() {
-	document.getElementById("menuindhold").innerHTML = vinvinkortet;
+//Menupunkt: Varmt
+function bvarmt() {
+	document.getElementById("menuindhold").innerHTML = bogvarmt;
 };
-//Menupunkt: Lørdagsmad
-function blordagsmad() {
-	document.getElementById("menuindhold").innerHTML = vinlordagsmad;
-};
-//Menupunkt: Drikke
-function bdrikke() {
-	document.getElementById("menuindhold").innerHTML = vindrikke;
+//Menupunkt: Koldt
+function bkoldt() {
+	document.getElementById("menuindhold").innerHTML = bogkoldt;
 };
 //Menupunkt: Mad
 function bmad() {
-	document.getElementById("menuindhold").innerHTML = vinmad;
+	document.getElementById("menuindhold").innerHTML = bogmad;
+};
+//Menupunkt: Vinkort
+function bvinkort() {
+	document.getElementById("menuindhold").innerHTML = bogvinkort;
 };

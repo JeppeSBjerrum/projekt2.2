@@ -1,6 +1,6 @@
 <?php
 $pagetitle = 'Løve´s Bog- og Vincafé';
-$pagelogo = 'images/loeveslogoinvert2.png';
+$pagelogo = 'images/bogcafelogohvidskygge.png';
 include( "header.php" )
 ?>
 
@@ -46,7 +46,6 @@ include( "header.php" )
 		<li data-target="#bogeventscarousel" data-slide-to="0" class="active"></li>
 		<li data-target="#bogeventscarousel" data-slide-to="1"></li>
 		<li data-target="#bogeventscarousel" data-slide-to="2"></li>
-		<li data-target="#bogeventscarousel" data-slide-to="3"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
@@ -54,8 +53,13 @@ include( "header.php" )
 		<div class="item active">
 			<img src="images/carouselbillede1.JPG" alt="">
 			<div class="carousel-caption boks">
-				<h2>Faste arrangementer</h2>
-				<h4>Her kan du læse om Løve's Bog- og Vincafés faste events</h4>
+				<h3>Løve's Bogklub</h3>
+				<h4>Hver 2. tirsdag i hver måned klokken 19</h4>
+				<p>
+				Et uforpligtende forum, hvor vi samles om litteratur og vender nogle af de tanker, bøger skaber under og efter læsningen.
+<br>
+
+Valget af bøger foretages i fællesskab og kan købes i bogcafeen. Du kan tilmelde dig til BogKlubben ved at skrive en mail til aa-cafe@loeves.dk med dit navn og emailadresse eller komme ned i bogcafeen og blive skrevet op.</p>
 			</div>
 		</div>
 
@@ -87,18 +91,7 @@ Kom og læs dine digte op eller spil en sang!<br>
 Kunstnere, musikanter, poeter og danserinder kommer langvejs fra for at optræde på vores scene - men der er osse en plads til dig på scenen! </p>
 			</div>
 		</div>
-		<div class="item">
-			<img src="images/carouselbillede1.JPG" alt="">
-			<div class="carousel-caption boks">
-				<h3>Løve's Bogklub</h3>
-				<h4>Hver 2. tirsdag i hver måned klokken 19</h4>
-				<p>
-				Et uforpligtende forum, hvor vi samles om litteratur og vender nogle af de tanker, bøger skaber under og efter læsningen.
-<br>
-
-Valget af bøger foretages i fællesskab og kan købes i bogcafeen. Du kan tilmelde dig til BogKlubben ved at skrive en mail til aa-cafe@loeves.dk med dit navn og emailadresse eller komme ned i bogcafeen og blive skrevet op.</p>
-			</div>
-		</div>
+		
 	</div>
 
 	<!-- Left and right controls -->

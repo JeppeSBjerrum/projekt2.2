@@ -1,6 +1,6 @@
 <?php
 $pagetitle = 'Kontakt Løve´s';
-$pagelogo = 'images/loeveslogoinvert2.png';
+$pagelogo = 'images/loeveslogohvidskygge.png';
 include( "header.php" )
 ?>
 <!--STORT BILLEDE ISTEDET FOR EN VIDEO-->

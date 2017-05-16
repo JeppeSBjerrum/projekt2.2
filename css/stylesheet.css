@@ -234,8 +234,9 @@ nav a:hover, nav a:visited:hover {
 #logo {
 	float: left;
 	width: 100%;
-	max-width: 400px;
+	max-width: 300px;
 	position: absolute;
+	margin: 10px;
 	
 }
 /*Button custom*/
