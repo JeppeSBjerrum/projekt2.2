@@ -80,7 +80,7 @@ a:hover, a:visited:hover {
 }
 .logo img {
 	margin-left: -2vw;
-	height:30vh;
+	height: 30vh;
 }
 
 /*Forside på Mobil side*/
@@ -150,17 +150,17 @@ a:hover, a:visited:hover {
 /*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
 .abningstider {
 	border: 2px solid black;
-	}
-.lydknapper img{
+}
+.lydknapper img {
 	width: 30px;
 }
-.lydknapper img:hover{
+.lydknapper img:hover {
 	cursor: pointer;
 }
 .storvideo {
 	height: 100vh;
 	z-index: -10;
-	margin:auto;
+	margin: auto;
 }
 .storvideo video {
 	width: 100vw;
@@ -174,7 +174,6 @@ a:hover, a:visited:hover {
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
-
 .carousel-caption {
 	max-width: 600px;
 	margin: auto;
@@ -187,7 +186,6 @@ a:hover, a:visited:hover {
 	border-top: 2px solid white;
 	padding-top: 10px;
 }
-
 #menuindhold {
 	margin-top: 40px;
 }
@@ -196,7 +194,7 @@ a:hover, a:visited:hover {
 	color: white;
 	padding: 40px 20px;
 }
-.tavle a{
+.tavle a {
 	color: white;
 }
 .tavle a:hover, .table a:visited:hover {
@@ -218,7 +216,6 @@ nav ul {
 	padding: 0px;
 }
 nav ul li {
-	
 	float: left;
 	padding: 10px 30px;
 }
@@ -235,7 +232,6 @@ nav a:hover, nav a:visited:hover {
 	max-width: 300px;
 	position: absolute;
 	margin: 10px;
-	
 }
 /*Button custom*/
 .btn-custom {
@@ -255,20 +251,18 @@ footer .row {
 	margin-top: 30px;
 }
 footer {
-	background-color:rgba(91,10,40,1.00);
+	background-color: rgba(91,10,40,1.00);
 	color: white;
 }
 footer a, footer a:hover, footer a:visited:hover {
 	color: white;
 }
-
-
 /*VINCAFE UNDERSIDEN*/
 #vinsite .container-fluid {
 	padding: 0;
 }
 #smagningid {
-	background-image: url(../images/vincafeglas.JPG);
+	background-image: url(../images/vincafeglas.jpg);
 	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -279,11 +273,12 @@ footer a, footer a:hover, footer a:visited:hover {
 /*KONTAKT UNDEDRSIDE*/
 .navbillede {
 	height: 60vh;
-	background-image:url(../images/IMG_0766.JPG);
+	background-image: url(../images/IMG_0766.JPG);
 	background-size: cover;
 }
 .kontaktspalte img {
-	width:200px;}
+	width: 200px;
+}
 .mereloeves img {
 	width: 200px;
 }
@@ -291,13 +286,13 @@ footer a, footer a:hover, footer a:visited:hover {
 	border-top: 2px solid black;
 	padding-top: 20px;
 }
+
 @media screen and (max-width:767px) {
-	.kontaktoplys {
-		text-align: center;
-	}
+.kontaktoplys {
+	text-align: center;
+}
 }
 /*BOGCAFE UNDERSIDE*/
 .bogmenuimg {
 	padding-bottom: 30px;
 }
-
