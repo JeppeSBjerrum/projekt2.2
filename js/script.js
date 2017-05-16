@@ -31,16 +31,16 @@ var vinmad = '<h4 class="col-xs-12">Vores madudvalg</h4><div class="col-sm-6"><t
 
 //BOG OG VINCAFÉ UNDERSIDEN
 //Menupunkt: 
-var bogvarmt = ""
+var bogvarmt = '<table width="100%"><tbody><tr>        <td>Espresso</td>        <td>20,-</td>      </tr>      <tr>        <td>Café con leche</td>        <td>30,-</td>    </tr>      <tr>        <td>Valgfri to-go kaffe</td>        <td>25,-</td>      </tr>    </tbody>  </table>';
 
 //Menupunkt: 
-var bogkoldt = ""
+var bogkoldt = '';
 
 //Menupunkt: 
-var bogmad = ""
+var bogmad = '';
 
 //Menupunkt: 
-var bogvinkort = ""
+var bogvinkort = '';
 //FUNKTIONER DER INDSÆTTER VARIABLERNE I ID=MENUINDHOLD
 //VINCAFE UNDERSIDEN
 

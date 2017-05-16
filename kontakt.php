@@ -70,14 +70,14 @@ include( "header.php" )
 
 			<h2>Løve's andre afdelinger</h2><br>
 			<div class="col-sm-4 ">
-				<img src="images/loevesgamlelogo.png" alt="">
+				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Antikvariat</h3>
 				<p>
 					Løve's Antikvariat<br>Høegh-Guldbergs Gade 71<br>8000 Århus C<br><br><a href="callto:+4527831634">27 83 16 34</a><br><a href="mailto:aa-antik@loeves.dk">aa-antik@loeves.dk</a>
 				</p>
 			</div>
 			<div class="col-sm-4">
-				<img src="images/loevesgamlelogo.png" alt="">
+				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Hotel Carmel</h3>
 				<p>Hotel Carmel<br>Nørre Allé 23c/Klosterport 6<br> 8000 Århus C<br>
 					<br><a href="callto:+4530547220">30 54 72 20</a><br><a href="mailto:info@hotelcarmel.dk">info@hotelcarmel.dk</a>
@@ -85,7 +85,7 @@ include( "header.php" )
 				</p>
 			</div>
 			<div class="col-sm-4">
-				<img src="images/loevesgamlelogo.png" alt="">
+				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Løve's Forlag</h3>
 				<p>Løvens Forlag<br> Borggade 14<br> 8000 Århus C<br>
 					<br> <a href="callto:+4530547220">30 54 72 20</a><br>
