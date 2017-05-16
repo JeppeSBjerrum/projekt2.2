@@ -268,7 +268,7 @@ footer a, footer a:hover, footer a:visited:hover {
 	padding: 0;
 }
 #smagningid {
-	background-image: url(../images/vincafeglas.jpg);
+	background-image: url(../images/vincafeglas.JPG);
 	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -279,7 +279,7 @@ footer a, footer a:hover, footer a:visited:hover {
 /*KONTAKT UNDEDRSIDE*/
 .navbillede {
 	height: 60vh;
-	background-image:url(../images/../images/IMG_0766.JPG);
+	background-image:url(../images/IMG_0766.JPG);
 	background-size: cover;
 }
 .kontaktspalte img {
