@@ -300,3 +300,8 @@ footer a, footer a:hover, footer a:visited:hover {
 	padding-bottom: 30px;
 }
 
+/*GOOGLE MAPS*/
+#map {
+        height: 450px;
+	
+}
