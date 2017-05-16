@@ -26,8 +26,8 @@
   <div class="row ">
    <!--Bogcafe-->
     <div class="laptop"> <a href="bogcafe.php">
-      <div class="col-sm-6 col-xs-12 bogcafelink">
-        <div class="textbox textbox1">
+      <div class="col-sm-6 col-xs-12 bogcafelink" id="bogcafelink">
+        <div class="textbox textbox1" id="textbox1">
           <h3>Løve's Bog og Vincafé</h3>
           <p class="hidden-xs">Læs en af de mange forskellige bøger, <br>
             mens du nyder en af vores mange vine fra hele verden</p>
@@ -35,8 +35,8 @@
       </div>
       <!--Vincafe-->
       </a> <a href="vincafe.php">
-      <div class="col-sm-6 col-xs-12 vincafelink">
-        <div class="textbox textbox2">
+      <div class="col-sm-6 col-xs-12 vincafelink" id="vincafelink">
+        <div class="textbox textbox2" id="textbox2">
           <h3>Vincaféen</h3>
           <p  class="hidden-xs">Smag over 100 forskellige vine fra hele verden!</p>
         </div>
@@ -49,5 +49,27 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+
+
+<!--Lavet med inspiration fra https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover-->
+<!--Script til farveskriftet på textboksene-->
+<script>
+$(document).ready(function(){
+    $("#bogcafelink").hover(function(){
+        $("#textbox1").css("background-color", "rgba(100,0,20,0.9)");
+        }, function(){
+        $("#textbox1").css("background-color", "rgba(0,0,0,0.60)");
+    });
+});
+$(document).ready(function(){
+    $("#vincafelink").hover(function(){
+        $("#textbox2").css("background-color", "rgba(100,0,20,0.9)");
+        }, function(){
+        $("#textbox2").css("background-color", "rgba(0,0,0,0.60)");
+    });
+});
+</script>
+
+
 </body>
 </html>

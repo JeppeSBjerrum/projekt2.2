@@ -123,7 +123,7 @@ Valget af bøger foretages i fællesskab og kan købes i bogcafeen. Du kan tilme
 		<div class="row">
 			<h2>Menu</h2>
 			<div class="col-sm-6 bogmenuimg">
-				<img src="images/20170503_120644.jpg" alt="" width="100%">
+				<img src="images/20170503_120644.jpg" alt="" width="75%">
 
 			</div>
 

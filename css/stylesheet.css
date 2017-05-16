@@ -48,11 +48,11 @@ a:hover, a:visited:hover {
 }
 .textbox2 {
 	height: 15vh;
-	width: 52vw;
+	width: 50vw;
 	background-color: rgba(0,0,0,0.60);
 	color: white;
 	float: left;
-	margin-left: -2vw;
+	margin-left: -1.1vw;
 	margin-top: 85vh;
 	text-align: center;
 }
