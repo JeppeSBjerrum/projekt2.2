@@ -17,7 +17,7 @@
   <div class="container-fluid">
   <!--Logo og nav-->
   <nav>
-  <img src="<?php echo $pagelogo;?>" alt="" id="logo">
+  <a href="index.html"><img src="<?php echo $pagelogo;?>" alt="" id="logo"></a>
   
   <ul>
   <li class="lydknapper"><img src="images/playbutton.png" alt="afspil musik" onClick="playAudio()"> <img src="images/mutebutton2.png" alt="sluk musikken" onClick="pauseAudio()"></li> 

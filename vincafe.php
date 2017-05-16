@@ -1,25 +1,26 @@
-<?php $pagetitle = 'Vincaféen'; 
+<?php
+$pagetitle = 'Vincaféen';
 $pagelogo = 'images/loeveslogoinvert2.png';
 include( "header.php" );
 ?>
-  <!--Stor video-->
-  <div id="vinvideo" class="storvideo">
-  <video loop autoplay>
-  <source src="video/vincafe.mp4" type="video/mp4">
-</video>
- <audio autoplay loop id="music">
-  <source src="audio/bensound-love.mp3" type="audio/mpeg">
-</audio>
-  </div>
- 
+<!--Stor video-->
+<div id="vinvideo" class="storvideo">
+	<video loop autoplay>
+		<source src="video/vincafe.mp4" type="video/mp4">
+	</video>
+	<audio autoplay loop id="music">
+		<source src="audio/bensound-love.mp3" type="audio/mpeg">
+	</audio>
+</div>
+
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->
 <div class="velkomstkasse">
 	<div class="container">
 		<div class="row">
 			<h1 class="col-xs-12">Velkommen til Løve's Vincafé</h1>
-			
 
-		
+
+
 			<div class="col-sm-6 col-md-7">
 				<p>Kære gæst
 					<br>
@@ -34,7 +35,7 @@ include( "header.php" );
 
 
 				<h5>Åbningstider</h5>
-	<p>Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket </p>
+				<p>Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket </p>
 			</div>
 		</div>
 	</div>
@@ -87,27 +88,32 @@ include( "header.php" );
       <span class="sr-only">Previous</span>
     </a>
 				
+
 					<a class="right carousel-control" href="#vinmenucarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
 				
+
 				</div>
 
 			</div>
-<!--SELVE MENUKORTET-->
+			<!--SELVE MENUKORTET-->
 			<div class="col-sm-6" id="menu">
 				<div class="row">
-					<h4 class="col-xs-6 col-sm-3 btn-custom btn" onClick="vvinkort()">Vinkort</h4>
-					<h4 class="col-xs-6 col-sm-3 btn-custom btn" onClick="vlordagsmad()">Lørdagsmad</h4>
-					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vdrikke()">Varmt</h4>
-					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vmad()">Mad</h4>
+					<h4 class="col-xs-12 col-md-3 btn-custom btn" onClick="vvinkort()">Vinkort</h4>
+					<h4 class="col-xs-4 col-md-3 btn-custom btn" onClick="vlordagsmad()">Lørdagsmad</h4>
+					<h4 class="col-xs-4 col-md-3 btn-custom btn" onClick="vdrikke()">Drikke</h4>
+					<h4 class="col-xs-4 col-md-3 btn-custom btn" onClick="vmad()">Mad</h4>
 				</div>
-				<div><p id="menuindhold">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber.<br>
-					<br> Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske.<br>
+				<div id="menuindhold">
+					<h4 class="col-xs-12">Vinkort</h4>
+					<p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> 
+					<a href="pdfnavn" target="_blank" class="btn-custom">Hent en pdf-fil af vores vinkort</a>
+					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
+					</p>
+				</div>
 
-					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p></div>
-					
 			</div>
 		</div>
 
@@ -131,19 +137,18 @@ include( "header.php" );
 	</div>
 </div>
 <script>
+	//js for baggrundslyd
+	var aud = document.getElementById( "music" );
 
-		//js for baggrundslyd
-		var aud = document.getElementById( "music" );
+	function playAudio() {
+		aud.play();
+	}
 
-		function playAudio() {
-			aud.play();
-		}
-
-		function pauseAudio() {
-			aud.pause();
-		}
+	function pauseAudio() {
+		aud.pause();
+	}
 </script>
 <footer>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.7182407058315!2d10.208964280464548!3d56.16011587699538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cc152da79721183!2sVincaf%C3%A9en!5e0!3m2!1sda!2sdk!4v1494667091584" width="100%" height="420" class="" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.7182407058315!2d10.208964280464548!3d56.16011587699538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cc152da79721183!2sVincaf%C3%A9en!5e0!3m2!1sda!2sdk!4v1494667091584" width="100%" height="420" class="" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<?php include( 'footer.php' )?>
+	<?php include( 'footer.php' )?>

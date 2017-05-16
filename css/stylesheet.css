@@ -186,9 +186,12 @@ a:hover, a:visited:hover {
 }
 table {
 	margin-bottom: 20px;
+	border-top: 2px solid white;
+	padding-top: 10px;
 }
+
 #menuindhold {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .tavle {
 	background-color: rgba(51,51,51,1.00);
