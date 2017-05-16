@@ -182,8 +182,31 @@ include( "header.php" );
 	function pauseAudio() {
 		aud.pause();
 	}
+
 </script>
 <footer>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.7182407058315!2d10.208964280464548!3d56.16011587699538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cc152da79721183!2sVincaf%C3%A9en!5e0!3m2!1sda!2sdk!4v1494667091584" width="100%" height="420" class="" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+	<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.7182407058315!2d10.208964280464548!3d56.16011587699538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cc152da79721183!2sVincaf%C3%A9en!5e0!3m2!1sda!2sdk!4v1494667091584" width="100%" height="420" class="" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+	
+	<!-- div hvor maps bliver loadet -->
+	<div id="map"></div>
+	
+	<!-- Google maps -->
+	<script>
+      var map;
+		
+	//zoom difinere hvor mange map tiles der bliver vist; 1: World, 5: Landmass/continent, 10: City, 15: Streets, 20: Buildings
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 56.160145, lng: 10.208897},
+          zoom: 17
+			
+        });
+      }
+    </script>
+    <!-- Loader Google Maps JavaScript API -->
+    <!-- Vores key: AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U -->
+    <!-- async gør at siden loader videre, når API'en er klar udfører den callback funtionen -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U&callback=initMap"
+    async defer></script>
+    
 	<?php include( 'footer.php' )?>
