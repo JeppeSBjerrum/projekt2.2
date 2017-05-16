@@ -94,23 +94,23 @@ include( "header.php" );
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="images/loevesvand.jpg" alt="" style="width:100%;">
+							<img src="images/vin1.jpg" alt="" style="width:100%;">
 							<div class="carousel-caption boks">
-								<p>Vin fra Spanien</p>
+								<p>Både rød, hvid, rosé og mousserende vin</p>
 							</div>
 						</div>
 
 						<div class="item">
-							<img src="images/loevesvand.jpg" alt="" style="width:100%;">
+							<img src="images/vin2.jpg" alt="" style="width:100%;">
 							<div class="carousel-caption boks">
-								<p>Vin fra Italien</p>
+								<p>Vin i alle prisklasser</p>
 							</div>
 						</div>
 
 						<div class="item">
-							<img src="images/loevesvand.jpg" alt="" style="width:100%;">
+							<img src="images/vin3.jpg" alt="" style="width:100%;">
 							<div class="carousel-caption boks">
-								<p>Vin fra Tønder</p>
+								<p>Vin fra hele verden</p>
 							</div>
 						</div>
 					</div>
