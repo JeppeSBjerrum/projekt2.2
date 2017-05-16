@@ -48,11 +48,11 @@ a:hover, a:visited:hover {
 }
 .textbox2 {
 	height: 15vh;
-	width: 52vw;
+	width: 50vw;
 	background-color: rgba(0,0,0,0.60);
 	color: white;
 	float: left;
-	margin-left: -2vw;
+	margin-left: -1.1vw;
 	margin-top: 85vh;
 	text-align: center;
 }
@@ -74,15 +74,13 @@ a:hover, a:visited:hover {
 }
 .logo {
 	position: fixed;
-	height: 15vw;
-	width: 15vw;
-	margin-left: 41.5vw;
-	margin-top: 25vh;
+	margin-left: 36vw;
+	margin-top: 30vh;
 	z-index: 50;
 }
 .logo img {
 	margin-left: -2vw;
-	width: 20vw;
+	height:30vh;
 }
 
 /*Forside på Mobil side*/

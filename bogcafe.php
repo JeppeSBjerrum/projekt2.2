@@ -116,7 +116,7 @@ Kunstnere, musikanter, poeter og danserinder kommer langvejs fra for at optræde
 		<div class="row">
 			<h2>Menu</h2>
 			<div class="col-sm-6 bogmenuimg">
-				<img src="images/20170503_120644.jpg" alt="" width="100%">
+				<img src="images/20170503_120644.jpg" alt="" width="75%">
 
 			</div>
 
