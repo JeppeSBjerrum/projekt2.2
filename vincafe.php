@@ -100,17 +100,14 @@ include( "header.php" );
 				<div class="row">
 					<h4 class="col-xs-6 col-sm-3 btn-custom btn" onClick="vvinkort()">Vinkort</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom btn" onClick="vlordagsmad()">Lørdagsmad</h4>
-					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vvarmt()">Varmt</h4>
-					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vkoldt()">Koldt</h4>
+					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vdrikke()">Varmt</h4>
 					<h4 class="col-xs-4 col-sm-2 btn-custom btn" onClick="vmad()">Mad</h4>
 				</div>
-				<div class="menuindhold"><p>For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber.<br>
+				<div><p id="menuindhold">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber.<br>
 					<br> Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske.<br>
 
 					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p></div>
-					<!--HER ER DEN KNAP DER FAKTISK VIRKER AAAAAARGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG-->
-					<div id="bitch"></div>
-<button onClick="wtf()">Her</button>
+					
 			</div>
 		</div>
 
