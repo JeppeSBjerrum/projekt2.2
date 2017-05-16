@@ -61,7 +61,7 @@ function vmad() {
 	document.getElementById("menuindhold").innerHTML = vinmad;
 };
 
-//BOG OG VINCAFE UNDERSIDE
+//BOG OG VINCAFE UNDERSIDEN
 //Menupunkt: Varmt
 function bvarmt() {
 	document.getElementById("menuindhold").innerHTML = bogvarmt;
