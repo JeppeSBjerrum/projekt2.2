@@ -35,7 +35,40 @@ include( "header.php" );
 
 
 				<h5>Åbningstider</h5>
-				<p>Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket </p>
+				<table width="100%" border="0">
+  <tbody>
+    <tr>
+      <td>Mandag:</td>
+      <td>Lukket</td>
+    </tr>
+    <tr>
+      <td>Tirsdag:</td>
+      <td>16:00 - 22:00</td>
+    </tr>
+    <tr>
+      <td>Onsdag:</td>
+      <td>16:00 - 22:00</td>
+    </tr>
+    <tr>
+      <td>Torsdag:</td>
+      <td>16:00 - 24:00</td>
+    </tr>
+    <tr>
+      <td>Fredag:</td>
+      <td>15:00 - 24:00</td>
+    </tr>
+    <tr>
+      <td>lørdag:</td>
+      <td>15:00 - 24:00</td>
+    </tr>
+    <tr>
+      <td>Søndag</td>
+      <td>Lukket</td>
+    </tr>
+  </tbody>
+</table>
+
+				
 			</div>
 		</div>
 	</div>
