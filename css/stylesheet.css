@@ -74,15 +74,13 @@ a:hover, a:visited:hover {
 }
 .logo {
 	position: fixed;
-	height: 15vw;
-	width: 15vw;
-	margin-left: 41.5vw;
-	margin-top: 25vh;
+	margin-left: 36vw;
+	margin-top: 30vh;
 	z-index: 50;
 }
 .logo img {
 	margin-left: -2vw;
-	width: 20vw;
+	height:30vh;
 }
 
 /*Forside på Mobil side*/
