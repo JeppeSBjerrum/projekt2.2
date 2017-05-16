@@ -42,9 +42,11 @@ a:hover, a:visited:hover {
 .textbox h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
+	margin-top:1vh;
 }
 .textbox p {
 	font-family: 'ubuntu', sans-serif;
+	margin-top: -10px;
 }
 .textbox2 {
 	height: 15vh;
@@ -55,6 +57,7 @@ a:hover, a:visited:hover {
 	margin-left: -1.1vw;
 	margin-top: 85vh;
 	text-align: center;
+	padding-bottom: 10vh;
 }
 .vincafelink {
 	height: 100vh;
