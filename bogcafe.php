@@ -170,9 +170,9 @@ include( "header.php" )
 			//zoom difinere hvor mange map tiles der bliver vist; 1: World, 5: Landmass/continent, 10: City, 15: Streets, 20: Buildings
 			function initMap() {
 				//loeves vincafe position
-				var loevesvin = {lat: 56.160832, lng: 10.209263};
+				var loevesbog = {lat: 56.160832, lng: 10.209263};
 				var map = new google.maps.Map( document.getElementById( 'map' ), {
-					center: loevesvin,
+					center: loevesbog,
           			scrollwheel: false,
 					zoom: 15,
 					styles: [
@@ -375,9 +375,10 @@ include( "header.php" )
   }
 ]
 				} );
+				
 				// positions marker
 				var marker = new google.maps.Marker({
-          		position: loevesvin,
+          		position: loevesbog,
           		map: map
         });
 			}
