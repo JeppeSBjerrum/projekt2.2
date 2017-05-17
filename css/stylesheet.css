@@ -42,7 +42,7 @@ a:hover, a:visited:hover {
 .textbox h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
-	margin-top:1vh;
+	margin-top: 1vh;
 }
 .textbox p {
 	font-family: 'ubuntu', sans-serif;
@@ -85,77 +85,11 @@ a:hover, a:visited:hover {
 	margin-left: -2vw;
 	height: 30vh;
 }
-
-/*Forside på Mobil side*/
-@media screen and (max-width:767px) {
-.vincafelink {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.bogcafelink {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bogcafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.vincafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.textbox1 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.85);
-	color: white;
-	float: right;
-	margin-top: 10vh;
-	margin-right: -4vw;
-	font-size-adjust: auto;
-}
-.textbox2 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.70);
-	color: white;
-	float: left;
-	margin-top: 30vh;
-	margin-left: -5vw;
-}
-.logo {
-	position: fixed;
-	margin-left: 25vw;
-	margin-top: 35vh;
-	z-index: 50;
-}
-.logo img {
-	height: 30vh;
-	width: auto;
-}
-}
 /*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
 .abningstider {
 	border: 2px solid black;
 	padding: 20px;
 }
-
 .lydknapper img {
 	width: 30px;
 }
@@ -248,7 +182,6 @@ nav a:hover, nav a:visited:hover {
 	color: white;
 	border-radius: 0px;
 	margin: 0px;
-	
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -258,7 +191,6 @@ nav a:hover, nav a:visited:hover {
 	cursor: pointer;
 	border: 2px solid grey;
 }
-
 #menu h4 {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -310,25 +242,80 @@ footer .text-center {
 	border-top: 2px solid black;
 	padding-top: 20px;
 }
-
-@media screen and (max-width:767px) {
-.kontaktoplys {
-	text-align: center;
-}
-	
-}
 /*BOGCAFE UNDERSIDE*/
 .bogmenuimg {
 	padding-bottom: 30px;
 }
-<<<<<<< HEAD
-=======
-
 /*GOOGLE MAPS*/
 #map {
-        height: 450px;
-	
+	height: 450px;
 }
->>>>>>> master
 
-}
+@media screen and (max-width:767px) {
+/*Forside på Mobil side*/
+.vincafelink {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.bogcafelink {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bogcafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vincafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.textbox1 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+	float: right;
+	margin-top: 10vh;
+	margin-right: -4vw;
+	font-size-adjust: auto;
+}
+.textbox2 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+	float: left;
+	margin-top: 30vh;
+	margin-left: -5vw;
+}
+.logo {
+	position: fixed;
+	margin-left: 25vw;
+	margin-top: 35vh;
+	z-index: 50;
+}
+.logo img {
+	height: 30vh;
+	width: auto;
+}
+/*kontakt.php siden*/
+.kontaktoplys {
+	text-align: center;
+}
+}
