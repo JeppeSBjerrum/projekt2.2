@@ -88,8 +88,7 @@ include( "header.php" )
 				<h3>Løve's Forlag</h3>
 				<p>Løvens Forlag<br> Borggade 14<br> 8000 Århus C<br>
 					<br> <a href="callto:+4530547220">30 54 72 20</a><br>
-					<a href="mailto:info@loevensforlag.dk">
-						<info@loevensforlag.dk/a>
+					<a href="mailto:info@loevensforlag.dk">info@loevensforlag.dk</a>
 
 				</p>
 			</div>
