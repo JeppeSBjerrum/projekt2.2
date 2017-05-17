@@ -213,6 +213,11 @@ footer .text-center {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+/* google maps*/
+#map {
+        height: 100%;
+      }
+
 /*VINCAFE UNDERSIDEN*/
 #vinsite .container-fluid {
 	padding: 0;
@@ -245,10 +250,6 @@ footer .text-center {
 /*BOGCAFE UNDERSIDE*/
 .bogmenuimg {
 	padding-bottom: 30px;
-}
-/*GOOGLE MAPS*/
-#map {
-	height: 450px;
 }
 
 @media screen and (max-width:767px) {
