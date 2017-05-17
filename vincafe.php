@@ -175,7 +175,206 @@ include( "header.php" );
 				var map = new google.maps.Map( document.getElementById( 'map' ), {
 					center: loevesvin,
           			scrollwheel: false,
-					zoom: 17
+					zoom: 15,
+					styles: [
+  /* Maps styling, brugt www.mapstyle.withgoogle.com */
+						{
+							/* generelt landmasse styling af farve */
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+	  /* Fjerne ikoner på kortet */
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+	  /* generel tekst farver */
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+	  /* generelt tekst farve outline (hænger sammen med den ovenover) */
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+	  /* Ved lang udzooming, farver landgrænserne */
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+	  /* farver landes navne tekst en lysere grå end den generelle tekst farve */
+    "featureType": "administrative.country",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+	  /* ændre navne på byer og område navne til en lysere grå */
+    "featureType": "administrative.locality",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+	  /* Ændre farven på 'points of intereset' til en lysere grå, som Ø-Haven i Aarhus */
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+	  /* ændre parkarealer til en mørkere grå */
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#181818"
+      }
+    ]
+  },
+  {
+	  /* Ændre parkers navne til en lysere grå */
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+	  /* Ændre outlinen på park navne til en mørkere grå */
+    "featureType": "poi.park",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1b1b1b"
+      }
+    ]
+  },
+  {
+	  /* Generelle vejes farve */
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#2c2c2c"
+      }
+    ]
+  },
+  {
+	  /* Vej navnes farve */
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8a8a8a"
+      }
+    ]
+  },
+  {
+	  /* Ændre stører by veje til hjemmesiden bordeaux vin farve */
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#700a29"
+      }
+    ]
+  },
+  {
+	  /* Ændre highways til hjemmesiden bordeaux vin farve */
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#700a29"
+      }
+    ]
+  },
+  {
+	  /* Ændre highways til hjemmesiden bordeaux vin farve */
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#700a29"
+      }
+    ]
+  },
+  {
+	  /* Ændre lokale små vejes navne til en lysere grå */
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+	  /* ændre transit tekst farven til en lysere grå */
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+	  /* ændre farven på vand til sort */
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+	  /* ændre tekst på vand til en mørkere grå en den generelle tekst farve */
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3d3d3d"
+      }
+    ]
+  }
+]
 				} );
 				// positions marker
 				var marker = new google.maps.Marker({
