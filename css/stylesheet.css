@@ -1,322 +1,323 @@
-/*BASICS*/
-body {
-	font-family: Ubuntu;
-	overflow-x: hidden;
-}
-#indexsite body {
-	overflow: hidden;
-}
-h1 {
-	margin-bottom: 1.5em;
-}
-a {
-	color: black;
-}
-a:hover, a:visited:hover {
-	color: black;
-}
-/*Forsiden på laptop*/
-.bogcafelink {
-	height: 100vh;
-	width: 50%;
-	background-image: url(../images/bogcafe2.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bogcafelink:hover {
-	height: 100vh;
-	width: 50%;
-	background-image: url(../images/IMG_0760.JPG);
-}
-.textbox1 {
-	height: 15vh;
-	width: 52vw;
-	background-color: rgba(0,0,0,0.60);
-	color: white;
-	float: left;
-	margin-left: -2vw;
-	margin-top: 85vh;
-	text-align: center;
-}
-.textbox h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: bold;
-	margin-top: 1vh;
-}
-.textbox p {
-	font-family: 'ubuntu', sans-serif;
-	margin-top: -10px;
-}
-.textbox2 {
-	height: 15vh;
-	width: 50vw;
-	background-color: rgba(0,0,0,0.60);
-	color: white;
-	float: left;
-	margin-left: -1.1vw;
-	margin-top: 85vh;
-	text-align: center;
-	padding-bottom: 10vh;
-}
-.vincafelink {
-	height: 100vh;
-	width: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe2.jpg);
-}
-.vincafelink:hover {
-	height: 100vh;
-	width: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.logo {
-	position: fixed;
-	margin-left: 36vw;
-	margin-top: 30vh;
-	z-index: 50;
-}
-.logo img {
-	margin-left: -2vw;
-	height: 30vh;
-}
-/*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
-.abningstider {
-	border: 2px solid black;
-	padding: 20px;
-}
-.lydknapper img {
-	width: 30px;
-}
-.lydknapper img:hover {
-	cursor: pointer;
-}
-.storvideo {
-	height: 100vh;
-	z-index: -10;
-	margin: auto;
-}
-.storvideo video {
-	width: 100vw;
-	position: fixed;
-	z-index: -10;
-}
-.velkomstkasse {
-	background-image: url(../images/paper.png);
-	background-size: cover;
-	margin-top: -70px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-.carousel-caption {
-	max-width: 600px;
-	margin: auto;
-}
-.menucarousel {
-	margin-bottom: 30px;
-}
-#menuindhold table {
-	margin-bottom: 20px;
-	border-top: 2px solid white;
-	padding-top: 10px;
-}
-tr {
-	line-height: 2em;
-}
-#menuindhold {
-	margin-top: 40px;
-	line-height: 1.75em;
-}
-.tavle {
-	background-color: rgba(51,51,51,1.00);
-	color: white;
-	padding: 80px 20px 40px;
-}
-.tavle a {
-	color: white;
-}
-.tavle a:hover, .table a:visited:hover {
-	color: white;
-}
-/*sort kasse styling*/
-.boks {
-	background-color: rgba(0,0,0,0.70);
-	color: white;
-	padding: 40px;
-}
-/*nav - header.php*/
-
-nav ul {
-	list-style: none;
-	float: right;
-	background-color: rgba(0,0,0,0.50);
-	margin-top: 30px;
-	padding: 0px;
-}
-nav ul li {
-	float: left;
-	padding: 10px 30px;
-}
-nav a {
-	color: white;
-	font-size: 18px;
-}
-nav a:hover, nav a:visited:hover {
-	color: white;
-}
-#logo {
-	float: left;
-	width: 100%;
-	max-width: 300px;
-	position: absolute;
-	margin: 10px;
-}
-/*Button custom*/
-.btn-custom {
-	border: 2px solid white;
-	color: white;
-	border-radius: 0px;
-	margin: 0px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.btn-custom:hover, .btn-custom:visited:hover {
-	color: white;
-	cursor: pointer;
-	border: 2px solid grey;
-}
-#menu h4 {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top: 0px;
-}
-/*footer*/
-footer .row {
-	margin-top: 30px;
-}
-footer {
-	background-color: rgba(91,10,40,1.00);
-	color: white;
-}
-footer a, footer a:hover, footer a:visited:hover {
-	color: white;
-}
-footer .text-center {
-	border-top: 2px solid white;
-	padding-top: 20px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-/* google maps*/
-#map {
-        height: 100%;
-      }
-
-/*VINCAFE UNDERSIDEN*/
-#vinsite .container-fluid {
-	padding: 0;
-}
-#smagningid {
-	background-image: url(../images/vincafeglas.jpg);
-	background-size: cover;
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-#vinmenucarousel .item img {
-	min-width: 300px;
-}
-/*KONTAKT UNDEDRSIDE*/
-.navbillede {
-	height: 60vh;
-	background-image: url(../images/IMG_0766.JPG);
-	background-size: cover;
-}
-.kontaktspalte img {
-	width: 200px;
-}
-.mereloeves img {
-	width: 200px;
-}
-.kontaktrow {
-	border-top: 2px solid black;
-	padding-top: 20px;
-}
-/*BOGCAFE UNDERSIDE*/
-.bogmenuimg {
-	padding-bottom: 30px;
-}
-
-@media screen and (max-width:767px) {
-/*Forside på Mobil side*/
-.vincafelink {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.bogcafelink {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bogcafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.vincafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.textbox1 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.85);
-	color: white;
-	float: right;
-	margin-top: 10vh;
-	margin-right: -4vw;
-	font-size-adjust: auto;
-}
-.textbox2 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.70);
-	color: white;
-	float: left;
-	margin-top: 30vh;
-	margin-left: -5vw;
-}
-.logo {
-	position: fixed;
-	margin-left: 25vw;
-	margin-top: 35vh;
-	z-index: 50;
-}
-.logo img {
-	height: 30vh;
-	width: auto;
-}
-/*kontakt.php siden*/
-.kontaktoplys {
-	text-align: center;
-}
-}
+/*BASICS*/
+body {
+	font-family: Ubuntu;
+	overflow-x: hidden;
+}
+#indexsite body {
+	overflow: hidden;
+}
+h1 {
+	margin-bottom: 1.5em;
+}
+a {
+	color: black;
+}
+a:hover, a:visited:hover {
+	color: black;
+}
+/*Forsiden på laptop*/
+.bogcafelink {
+	height: 100vh;
+	width: 50%;
+	background-image: url(../images/bogcafe2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bogcafelink:hover {
+	height: 100vh;
+	width: 50%;
+	background-image: url(../images/IMG_0760.JPG);
+}
+.textbox1 {
+	height: 15vh;
+	width: 52vw;
+	background-color: rgba(0,0,0,0.60);
+	color: white;
+	float: left;
+	margin-left: -2vw;
+	margin-top: 85vh;
+	text-align: center;
+}
+.textbox h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-top: 1vh;
+}
+.textbox p {
+	font-family: 'ubuntu', sans-serif;
+	margin-top: -10px;
+}
+.textbox2 {
+	height: 15vh;
+	width: 50vw;
+	background-color: rgba(0,0,0,0.60);
+	color: white;
+	float: left;
+	margin-left: -1.1vw;
+	margin-top: 85vh;
+	text-align: center;
+	padding-bottom: 10vh;
+}
+.vincafelink {
+	height: 100vh;
+	width: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe2.jpg);
+}
+.vincafelink:hover {
+	height: 100vh;
+	width: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.logo {
+	position: fixed;
+	margin-left: 36vw;
+	margin-top: 30vh;
+	z-index: 50;
+}
+.logo img {
+	margin-left: -2vw;
+	height: 30vh;
+}
+/*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
+.abningstider {
+	border: 2px solid black;
+	padding: 20px;
+}
+.lydknapper img {
+	width: 30px;
+}
+.lydknapper img:hover {
+	cursor: pointer;
+}
+.storvideo {
+	height: 100vh;
+	z-index: -10;
+	margin: auto;
+}
+.storvideo video {
+	width: 100vw;
+	position: fixed;
+	z-index: -10;
+}
+.velkomstkasse {
+	background-image: url(../images/paper.png);
+	background-size: cover;
+	margin-top: -70px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.carousel-caption {
+	max-width: 600px;
+	margin: auto;
+}
+.menucarousel {
+	margin-bottom: 30px;
+}
+#menuindhold table {
+	margin-bottom: 20px;
+	border-top: 2px solid white;
+	padding-top: 10px;
+}
+tr {
+	line-height: 2em;
+}
+#menuindhold {
+	margin-top: 40px;
+	line-height: 1.75em;
+}
+.tavle {
+	background-color: rgba(51,51,51,1.00);
+	color: white;
+	padding: 80px 20px 40px;
+}
+.tavle a {
+	color: white;
+}
+.tavle a:hover, .table a:visited:hover {
+	color: white;
+}
+/*sort kasse styling*/
+.boks {
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+	padding: 40px;
+}
+/*nav - header.php*/
+
+nav ul {
+	list-style: none;
+	float: right;
+	background-color: rgba(0,0,0,0.50);
+	margin-top: 30px;
+	padding: 0px;
+}
+nav ul li {
+	float: left;
+	padding: 10px 30px;
+}
+nav a {
+	color: white;
+	font-size: 18px;
+}
+nav a:hover, nav a:visited:hover {
+	color: white;
+}
+#logo {
+	float: left;
+	width: 100%;
+	max-width: 300px;
+	position: absolute;
+	margin: 10px;
+}
+/*Button custom*/
+.btn-custom {
+	border: 2px solid white;
+	color: white;
+	border-radius: 0px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.btn-custom:hover, .btn-custom:visited:hover {
+	color: white;
+	cursor: pointer;
+	border: 2px solid grey;
+}
+#menu h4 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+}
+/*footer*/
+footer .row {
+	margin-top: 30px;
+}
+footer {
+	background-color: rgba(91,10,40,1.00);
+	color: white;
+}
+footer a, footer a:hover, footer a:visited:hover {
+	color: white;
+}
+footer .text-center {
+	border-top: 2px solid white;
+	padding-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/* google maps*/
+#map {
+        height: 450px;
+		width: 100%;
+      }
+
+/*VINCAFE UNDERSIDEN*/
+#vinsite .container-fluid {
+	padding: 0;
+}
+#smagningid {
+	background-image: url(../images/vincafeglas.jpg);
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#vinmenucarousel .item img {
+	min-width: 300px;
+}
+/*KONTAKT UNDEDRSIDE*/
+.navbillede {
+	height: 60vh;
+	background-image: url(../images/IMG_0766.JPG);
+	background-size: cover;
+}
+.kontaktspalte img {
+	width: 200px;
+}
+.mereloeves img {
+	width: 200px;
+}
+.kontaktrow {
+	border-top: 2px solid black;
+	padding-top: 20px;
+}
+/*BOGCAFE UNDERSIDE*/
+.bogmenuimg {
+	padding-bottom: 30px;
+}
+
+@media screen and (max-width:767px) {
+/*Forside på Mobil side*/
+.vincafelink {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.bogcafelink {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bogcafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vincafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.textbox1 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+	float: right;
+	margin-top: 10vh;
+	margin-right: -4vw;
+	font-size-adjust: auto;
+}
+.textbox2 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+	float: left;
+	margin-top: 30vh;
+	margin-left: -5vw;
+}
+.logo {
+	position: fixed;
+	margin-left: 25vw;
+	margin-top: 35vh;
+	z-index: 50;
+}
+.logo img {
+	height: 30vh;
+	width: auto;
+}
+/*kontakt.php siden*/
+.kontaktoplys {
+	text-align: center;
+}
+}

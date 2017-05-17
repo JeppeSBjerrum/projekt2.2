@@ -16,9 +16,10 @@ include( "header.php" )
 
 			<div class="col-sm-5 kontaktoplys">
 				<div class="row kontaktrow">
-					<img src="images/bogcafelogosort.png" alt=""><br>
-				</div><br>
-				<br>
+					<img src="images/bogcafelogosort.png" alt=""><br><br>
+
+
+				</div>
 
 				<div class="row">
 					<div class="col-sm-7">
@@ -35,13 +36,11 @@ include( "header.php" )
 				<br>
 
 				<div class="row kontaktrow">
-					<img src="images/vincafelogosort.png" alt="">
-				</div><br>
+					<img src="images/vincafelogosort.png" alt=""><br>
 				<br>
+				</div>
 				<div class="row">
 					<div class="col-sm-7">
-
-
 						<p> Vincaféen<br> Borggade 14<br> 8000 Århus C
 							<br>
 							<br> <a href="callto:+4552175016">52 17 50 16</a><br> <a href="mailto:vincafeen@loeves.dk">vincafeen@loeves.dk</a>
