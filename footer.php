@@ -22,6 +22,7 @@ Lørdag: 10-24 <br>
 
 Søndag: 10-18 </p>
 <a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
+<a href="https://www.instagram.com/lovesbogogvincafe/"><img src="images/iglogo.png" width="40px" alt=""></a>
 </div>
 <div class="col-xs-6 col-sm-3">
 	<h3>Vincaféen</h3>
@@ -56,7 +57,7 @@ Søndag: Lukket
 	</p>
 	<a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
 	
-	<a href="#"><img src="images/iglogo.png" width="40px" alt=""></a>
+	<a href="https://www.instagram.com/vincafeen/"><img src="images/iglogo.png" width="40px" alt=""></a>
 </div>
 <div class="col-sm-3 hidden-xs">
 <h3>Sitemap</h3>	
