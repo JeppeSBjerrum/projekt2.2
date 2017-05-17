@@ -53,15 +53,15 @@
 <!--Lavet med inspiration fra https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover--> 
 <!--Script til farveskriftet på textboksene--> 
 <script>
-$(document).ready(function(){
+	$(document).ready(function(){
+		//farveskift på bogcafeens textbox
     $("#bogcafelink").hover(function(){
         $("#textbox1").css("background-color", "rgba(100,0,20,0.9)");
         }, function(){
         $("#textbox1").css("background-color", "rgba(0,0,0,0.60)");
     });
-});
-$(document).ready(function(){
-    $("#vincafelink").hover(function(){
+		//farveskift på vincafeens textbox
+		$("#vincafelink").hover(function(){
         $("#textbox2").css("background-color", "rgba(100,0,20,0.9)");
         }, function(){
         $("#textbox2").css("background-color", "rgba(0,0,0,0.60)");
