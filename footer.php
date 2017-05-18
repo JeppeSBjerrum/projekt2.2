@@ -71,7 +71,7 @@ Søndag: Lukket
 </div>
 
 	<div class="col-sm-3 col-xs-12">
-	<h3>Her skal der være noget</h3>
+	<h3>Instagramfeed</h3>
 </div>
 	
 </div>

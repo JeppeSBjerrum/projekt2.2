@@ -12,26 +12,17 @@ include( "header.php" )
 	<audio autoplay loop id="music">
 		<source src="audio/bensound-thejazzpiano.mp3" type="audio/mpeg">
 	</audio>
+	
 </div>
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->
 <div class="velkomstkasse">
 	<div class="container">
 		<div class="row">
-			<h1 class="col-xs-12">Velkommen til Løve's Bogcafé</h1>
-			<div class="col-sm-6 col-md-7">
-				<p>Kære gæst
-					<br>
-					<br> Velkommen til Løve's Bog- og VinCafé. Stedet, hvor litteratur, mad & vin hænger uløseligt sammen og hvor kulturen er levende.
-					<br> Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.
-					<br> Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32.
-					<br>
-					<br> Med venlig hilsen Løve's Bog- og VinCafé</p>
-			</div>
-			<div class="col-sm-3">
-				<img src="images/loevesgamlelogo.png" width="200px" alt="">
-			</div>
-			<div class="col-sm-3 col-md-2 abningstider">
-				<h5>Åbningstider</h5>
+			<div class="col-xs-12 text-center"><h1>Velkommen til Løve's Bog- og Vincafé</h1>
+			<h2>- Bare bliv siddende!</h2></div>
+			
+			<div class="col-sm-3 abningstider">
+				<h4>Åbningstider</h4>
 				<table width="100%" border="0">
 					<tbody>
 						<tr>
@@ -65,6 +56,18 @@ include( "header.php" )
 					</tbody>
 				</table>
 
+			</div>
+			<div class="col-xs-6">
+				<h3>Hvem er vi</h3>
+				<p>Kære gæst
+
+Velkommen til Løve's Bog- og VinCafé. Stedet, hvor litteratur, mad & vin hænger uløseligt sammen og hvor kulturen er levende.
+
+Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.
+
+Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32. 
+
+Med venlig hilsen Løve's Bog- og VinCafé</p>
 			</div>
 		</div>
 	</div>
