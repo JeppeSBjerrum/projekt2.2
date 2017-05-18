@@ -141,13 +141,13 @@ a:hover, a:visited:hover {
 	font-family: Grumble;
 }
 #menu table, #menu p, #menu a{
-	font-size: 18px;
+	font-size: 22px;
 }
 #menu h3 {
-	font-size: 28px;
+	font-size: 32px;
 }
 #menu h4 {
-	font-size: 22px;
+	font-size: 28px;
 }
 #menuindhold table {
 	margin-bottom: 20px;
