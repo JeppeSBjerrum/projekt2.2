@@ -60,7 +60,7 @@ include( "header.php" )
 
 			</div>
 			
-			<div class="col-sm-4 hvemervi">
+			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Hvem er vi</h3>
 				<p>Løve's Bog- og VinCafé er stedet, hvor litteratur, mad og vin hænger uløseligt sammen, og hvor kulturen er levende.<br>
 
@@ -71,7 +71,7 @@ Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en
 
 Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32. </p>
 			</div>
-			<div class="col-sm-4 hvemervi">
+			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Om Løve's</h3>
 				<p></p>
 			</div>
@@ -97,7 +97,7 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 			<div class="carousel-caption boks">
 				<h3>Løve's Bogklub</h3>
 				<h4>Hver 2. tirsdag i hver måned klokken 19</h4>
-				<p class="hidden-xs">
+				<p class="hidden-xs hidden-sm">
 					Et uforpligtende forum, hvor vi samles om litteratur og vender nogle af de tanker, bøger skaber under og efter læsningen.
 					<br> Valget af bøger foretages i fællesskab og kan købes i bogcafeen. Du kan tilmelde dig til BogKlubben ved at skrive en mail til aa-cafe@loeves.dk med dit navn og emailadresse eller komme ned i bogcafeen og blive skrevet op.</p>
 				<p class="hidden-sm hidden-md hidden-lg">En meget meget kort beskrivelse af eventet kunne stå her?</p>
@@ -110,7 +110,7 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 			<div class="carousel-caption boks">
 				<h3>Åben Poetisk Scene</h3>
 				<h4>Hver 2. og 4. onsdag i måneden fra kl. 19.30-22.30</h4>
-				<p class="hidden-xs">Åben Poetisk Scene er som navnet antyder, en åben scene hvor kreative ordgøglere, kvistværelsesspoeter - eller kort sagt: skrivende af alle slags! - kan komme og prøve deres ting af - få dem ud over scenen, op fra skrivebordsskuffen og fremført for et publikum. Og nysgerrige kan komme og få sig en god oplevelse som publikum.
+				<p class="hidden-xs hidden-sm">Åben Poetisk Scene er som navnet antyder, en åben scene hvor kreative ordgøglere, kvistværelsesspoeter - eller kort sagt: skrivende af alle slags! - kan komme og prøve deres ting af - få dem ud over scenen, op fra skrivebordsskuffen og fremført for et publikum. Og nysgerrige kan komme og få sig en god oplevelse som publikum.
 					<br>
 					<br> Åben Poetisk Scene arrangeres af Poetklub Århus og har kørt i mange år forskellige steder i Århus, men har nu fundet et fast sted i Løve's Bog- og VinCafé, der i forvejen står for flere litterære og kulturelle arrangementer; det samme gør Poetklub Århus jo - så på den måde er det et godt match.</p>
 			</div>
@@ -122,7 +122,7 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 			<div class="carousel-caption boks">
 				<h3>Y Aarhus Poetry Club</h3>
 				<h4>Den 3. onsdag i måneden kl. 19:30</h4>
-				<p class="hidden-xs">Y Aarhus Poetry Club er en klub for poeter og musikere og historiefortællere, dansere og mange andre poetiske folk.<br> Klubben, som er en søster-klub til Y Tuesday Poetry Club i London, har eksisteret i 3 år på mange forskellige scener i Aarhus' underverden, men nu har den fundet sit eget tilholds sted på Løve's Bog- og VinCafé.<br>
+				<p class="hidden-xs hidden-sm">Y Aarhus Poetry Club er en klub for poeter og musikere og historiefortællere, dansere og mange andre poetiske folk.<br> Klubben, som er en søster-klub til Y Tuesday Poetry Club i London, har eksisteret i 3 år på mange forskellige scener i Aarhus' underverden, men nu har den fundet sit eget tilholds sted på Løve's Bog- og VinCafé.<br>
 					<br> Kom og læs dine digte op eller spil en sang!<br> Kunstnere, musikanter, poeter og danserinder kommer langvejs fra for at optræde på vores scene - men der er osse en plads til dig på scenen! </p>
 			</div>
 		</div>
@@ -437,3 +437,4 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 
 
 	<?php include( 'footer.php' )?>
+	

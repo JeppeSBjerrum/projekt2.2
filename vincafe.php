@@ -75,7 +75,7 @@ include( "header.php" );
 
 			</div>
 			
-			<div class="col-sm-4 hvemervi">
+			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Hvem er vi</h3>
 				<p>Vincaféen er stedet, hvor vinhandel og café får sit helt eget udtryk i hyggelige, rustikke og levende omgivelser. Vores fokus ligger på selvimporterede kvalitetsvine til gode priser, som enten kan nydes i caféen eller tages med hjem til favorable priser.<br>
 <br>
@@ -83,7 +83,7 @@ include( "header.php" );
 
 Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op i en højere enhed; et sted, hvor man samles om vin, mad og kaffe; hvor man kan slappe af. Kort og godt et sted, hvor vin, mad, café og kultur går op i en højere enhed.</p>
 			</div>
-			<div class="col-sm-4 hvemervi">
+			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Om Løve's</h3>
 				<p></p>
 			</div>
@@ -732,3 +732,4 @@ Kontakt os blot med dine ønsker og så stykker vi din begivenhed sammen efter d
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U&callback=initMap" async defer></script>
 
 	<?php include( 'footer.php' )?>
+	

@@ -37,7 +37,7 @@ include( "header.php" )
 
 				<div class="row kontaktrow">
 					<img src="images/vincafelogosort.png" alt=""><br>
-				<br>
+					<br>
 				</div>
 				<div class="row">
 					<div class="col-sm-7">
@@ -55,7 +55,41 @@ include( "header.php" )
 			</div>
 
 			<div class="col-sm-6">
-				<p>hjælp</p>
+				<form method="post" action="http://www.jungild.dk/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
+document.charset = 'ISO-8859-1'; 
+window.onbeforeunload = function () {document.charset=originalCharset;};">
+
+					<div class="form-group">
+						<label for="form_name">Fornavn *</label>
+						<input id="form_name" type="text" name="name" class="form-control" placeholder="Skriv din navn *" required="required" data-error="Navn skal udfyldes">
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group">
+						<label for="form_email">Email *</label>
+						<input id="form_email" type="email" name="email" class="form-control" placeholder="Skriv din email her*" required="required" data-error="Email skal indholde @">
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group">
+						<label for="form_phone">Telefon</label>
+						<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Skriv dit telefonnummer her">
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group">
+						<label for="form_message">Din besked *</label>
+						<textarea id="form_message" name="message" class="form-control" placeholder="Skriv din besked her *" rows="10" required="required"></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+
+
+
+					<input type="submit" value="Send"/>
+					<input type="hidden" name="recipient" value="johannejungild@gmail.com"/>
+					<input type="hidden" name="subject" value="Subject"/>
+					<input type="hidden" name="redirect" value="http://www.jungild.dk/"/>
+					<input type="hidden" name="missing_fields_redirect" value="http://www.jungild.dk/loeves/index.html"/>
+
+					<input type="hidden" name="required" value="name,email,phone,message"/>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -97,235 +131,182 @@ include( "header.php" )
 </div>
 <!--FOOTER-->
 <footer>
-<!-- div hvor maps bliver loadet -->
-		<div id="map"></div>
-		
-		<!-- Google maps -->
-		<script>
-			//zoom difinere hvor mange map tiles der bliver vist; 1: World, 5: Landmass/continent, 10: City, 15: Streets, 20: Buildings
-			function initMap() {
-				//loeves vincafe position
-				var loevesbog = {lat: 56.160832, lng: 10.209263};
-				var loevesvin = {lat: 56.160145, lng: 10.208897};
-				var map = new google.maps.Map( document.getElementById( 'map' ), {
-					center: loevesvin,
-          			scrollwheel: false,
-					zoom: 16,
-					styles: [
-  /* Maps styling, brugt www.mapstyle.withgoogle.com */
-						{
-							/* generelt landmasse styling af farve */
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-	  /* Fjerne ikoner på kortet */
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-	  /* generel tekst farver */
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-	  /* generelt tekst farve outline (hænger sammen med den ovenover) */
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-	  /* Ved lang udzooming, farver landgrænserne */
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-	  /* farver landes navne tekst en lysere grå end den generelle tekst farve */
-    "featureType": "administrative.country",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-	  /* ændre navne på byer og område navne til en lysere grå */
-    "featureType": "administrative.locality",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-	  /* Ændre farven på 'points of intereset' til en lysere grå, som Ø-Haven i Aarhus */
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-	  /* ændre parkarealer til en mørkere grå */
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#181818"
-      }
-    ]
-  },
-  {
-	  /* Ændre parkers navne til en lysere grå */
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-	  /* Ændre outlinen på park navne til en mørkere grå */
-    "featureType": "poi.park",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#1b1b1b"
-      }
-    ]
-  },
-  {
-	  /* Generelle vejes farve */
-    "featureType": "road",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#2c2c2c"
-      }
-    ]
-  },
-  {
-	  /* Vej navnes farve */
-    "featureType": "road",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8a8a8a"
-      }
-    ]
-  },
-  {
-	  /* Ændre stører by veje til hjemmesiden bordeaux vin farve */
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#700a29"
-      }
-    ]
-  },
-  {
-	  /* Ændre highways til hjemmesiden bordeaux vin farve */
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#700a29"
-      }
-    ]
-  },
-  {
-	  /* Ændre highways til hjemmesiden bordeaux vin farve */
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#700a29"
-      }
-    ]
-  },
-  {
-	  /* Ændre lokale små vejes navne til en lysere grå */
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-	  /* ændre transit tekst farven til en lysere grå */
-    "featureType": "transit",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-	  /* ændre farven på vand til sort */
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#000000"
-      }
-    ]
-  },
-  {
-	  /* ændre tekst på vand til en mørkere grå en den generelle tekst farve */
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#3d3d3d"
-      }
-    ]
-  }
-]
-				} );
-				// positions marker
-				var marker = new google.maps.Marker({
-          		position: loevesvin,
-          		map: map
-        });
-				// positions marker
-				var marker = new google.maps.Marker({
-          		position: loevesbog,
-          		map: map
-        });
-			}
-		</script>
-		<!-- Loader Google Maps JavaScript API -->
+	<!-- div hvor maps bliver loadet -->
+	<div id="map"></div>
+
+	<!-- Google maps -->
+	<script>
+		//zoom difinere hvor mange map tiles der bliver vist; 1: World, 5: Landmass/continent, 10: City, 15: Streets, 20: Buildings
+		function initMap() {
+			//loeves vincafe position
+			var loevesbog = {
+				lat: 56.160832,
+				lng: 10.209263
+			};
+			var loevesvin = {
+				lat: 56.160145,
+				lng: 10.208897
+			};
+			var map = new google.maps.Map( document.getElementById( 'map' ), {
+				center: loevesvin,
+				scrollwheel: false,
+				zoom: 16,
+				styles: [
+					/* Maps styling, brugt www.mapstyle.withgoogle.com */
+					{
+						/* generelt landmasse styling af farve */
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#212121"
+						} ]
+					}, {
+						/* Fjerne ikoner på kortet */
+						"elementType": "labels.icon",
+						"stylers": [ {
+							"visibility": "off"
+						} ]
+					}, {
+						/* generel tekst farver */
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#757575"
+						} ]
+					}, {
+						/* generelt tekst farve outline (hænger sammen med den ovenover) */
+						"elementType": "labels.text.stroke",
+						"stylers": [ {
+							"color": "#212121"
+						} ]
+					}, {
+						/* Ved lang udzooming, farver landgrænserne */
+						"featureType": "administrative",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#757575"
+						} ]
+					}, {
+						/* farver landes navne tekst en lysere grå end den generelle tekst farve */
+						"featureType": "administrative.country",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#9e9e9e"
+						} ]
+					}, {
+						/* ændre navne på byer og område navne til en lysere grå */
+						"featureType": "administrative.locality",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#bdbdbd"
+						} ]
+					}, {
+						/* Ændre farven på 'points of intereset' til en lysere grå, som Ø-Haven i Aarhus */
+						"featureType": "poi",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#757575"
+						} ]
+					}, {
+						/* ændre parkarealer til en mørkere grå */
+						"featureType": "poi.park",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#181818"
+						} ]
+					}, {
+						/* Ændre parkers navne til en lysere grå */
+						"featureType": "poi.park",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#616161"
+						} ]
+					}, {
+						/* Ændre outlinen på park navne til en mørkere grå */
+						"featureType": "poi.park",
+						"elementType": "labels.text.stroke",
+						"stylers": [ {
+							"color": "#1b1b1b"
+						} ]
+					}, {
+						/* Generelle vejes farve */
+						"featureType": "road",
+						"elementType": "geometry.fill",
+						"stylers": [ {
+							"color": "#2c2c2c"
+						} ]
+					}, {
+						/* Vej navnes farve */
+						"featureType": "road",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#8a8a8a"
+						} ]
+					}, {
+						/* Ændre stører by veje til hjemmesiden bordeaux vin farve */
+						"featureType": "road.arterial",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#700a29"
+						} ]
+					}, {
+						/* Ændre highways til hjemmesiden bordeaux vin farve */
+						"featureType": "road.highway",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#700a29"
+						} ]
+					}, {
+						/* Ændre highways til hjemmesiden bordeaux vin farve */
+						"featureType": "road.highway.controlled_access",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#700a29"
+						} ]
+					}, {
+						/* Ændre lokale små vejes navne til en lysere grå */
+						"featureType": "road.local",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#616161"
+						} ]
+					}, {
+						/* ændre transit tekst farven til en lysere grå */
+						"featureType": "transit",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#757575"
+						} ]
+					}, {
+						/* ændre farven på vand til sort */
+						"featureType": "water",
+						"elementType": "geometry",
+						"stylers": [ {
+							"color": "#000000"
+						} ]
+					}, {
+						/* ændre tekst på vand til en mørkere grå en den generelle tekst farve */
+						"featureType": "water",
+						"elementType": "labels.text.fill",
+						"stylers": [ {
+							"color": "#3d3d3d"
+						} ]
+					}
+				]
+			} );
+			// positions marker
+			var marker = new google.maps.Marker( {
+				position: loevesvin,
+				map: map
+			} );
+			// positions marker
+			var marker = new google.maps.Marker( {
+				position: loevesbog,
+				map: map
+			} );
+		}
+	</script>
+	<!-- Loader Google Maps JavaScript API -->
 	<!-- Vores key: AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U -->
 	<!-- async gør at siden loader videre, når API'en er klar udfører den callback funtionen -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U&callback=initMap" async defer></script>	
-		
-<?php include( "footer.php" )?>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuHRGxzOlsw2TgdeiMyXIR064GLayCX9U&callback=initMap" async defer></script>
+
+	<?php include( "footer.php" )?>
