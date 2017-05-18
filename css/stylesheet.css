@@ -174,7 +174,7 @@ tr {
 .tavle a {
 	color: white;
 }
-.tavle a:hover, .table a:visited:hover {
+.tavle a:hover, .tavle a:visited:hover{
 	color: white;
 }
 /*sort kasse styling*/
