@@ -60,35 +60,34 @@ document.charset = 'ISO-8859-1';
 window.onbeforeunload = function () {document.charset=originalCharset;};">
 
 					<div class="form-group">
-						<label for="form_name">Fornavn *</label>
-						<input id="form_name" type="text" name="name" class="form-control" placeholder="Skriv din navn *" required="required" data-error="Navn skal udfyldes">
+						<label for="form_name">Fornavn *</label><br>
+
+						<input name="realname" />
 						<div class="help-block with-errors"></div>
 					</div>
 					<div class="form-group">
-						<label for="form_email">Email *</label>
-						<input id="form_email" type="email" name="email" class="form-control" placeholder="Skriv din email her*" required="required" data-error="Email skal indholde @">
+						<label for="form_email">Email *</label><br>
+
+						<input name="email" />
 						<div class="help-block with-errors"></div>
 					</div>
+					
 					<div class="form-group">
-						<label for="form_phone">Telefon</label>
-						<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Skriv dit telefonnummer her">
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<label for="form_message">Din besked *</label>
-						<textarea id="form_message" name="message" class="form-control" placeholder="Skriv din besked her *" rows="10" required="required"></textarea>
+						<label for="form_message">Din besked *</label><br>
+
+						<textarea cols="40" rows="10" name="Message"></textarea>
 						<div class="help-block with-errors"></div>
 					</div>
 
 
 
 					<input type="submit" value="Send"/>
-					<input type="hidden" name="recipient" value="johannejungild@gmail.com"/>
+					<input type="hidden" name="recipient" value="kim@jungild.dk"/>
 					<input type="hidden" name="subject" value="Subject"/>
 					<input type="hidden" name="redirect" value="http://www.jungild.dk/"/>
 					<input type="hidden" name="missing_fields_redirect" value="http://www.jungild.dk/loeves/index.html"/>
 
-					<input type="hidden" name="required" value="name,email,phone,message"/>
+					<input type="hidden" name="required" value="realname,email,message"/>
 				</form>
 			</div>
 		</div>
