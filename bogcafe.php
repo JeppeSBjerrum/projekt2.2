@@ -18,12 +18,14 @@ include( "header.php" )
 <div class="velkomstkasse">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 text-center"><h1>Velkommen til Løve's Bog- og Vincafé</h1>
+			<div class="col-xs-12 text-center velkommen1"><h1>Velkommen til Løve's Bog- og Vincafé</h1>
 			<h2>- Bare bliv siddende!</h2></div>
+			</div>
+<div class="row velkommen2">
 			
-			<div class="col-sm-3 abningstider">
-				<h4>Åbningstider</h4>
-				<table width="100%" border="0">
+			<div class="col-sm-4 abningstider">
+				<h3>Åbningstider</h3>
+				<table width="100%">
 					<tbody>
 						<tr>
 							<td>Mandag:</td>
@@ -57,17 +59,21 @@ include( "header.php" )
 				</table>
 
 			</div>
-			<div class="col-xs-6">
+			
+			<div class="col-sm-4 hvemervi">
 				<h3>Hvem er vi</h3>
-				<p>Kære gæst
+				<p>Løve's Bog- og VinCafé er stedet, hvor litteratur, mad og vin hænger uløseligt sammen, og hvor kulturen er levende.<br>
 
-Velkommen til Løve's Bog- og VinCafé. Stedet, hvor litteratur, mad & vin hænger uløseligt sammen og hvor kulturen er levende.
 
-Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.
+Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.<br><br>
 
-Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32. 
 
-Med venlig hilsen Løve's Bog- og VinCafé</p>
+
+Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32. </p>
+			</div>
+			<div class="col-sm-4 hvemervi">
+				<h3>Om Løve's</h3>
+				<p></p>
 			</div>
 		</div>
 	</div>
@@ -162,8 +168,8 @@ Med venlig hilsen Løve's Bog- og VinCafé</p>
 
 			</div>
 
-			<div class="col-sm-7">
-				<div class="row">
+			<div class="col-sm-7" id="menu">
+				<div class="row menukortknapper">
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bdrikke()">Drikke</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="balkohol()">Alkohol</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bmad()">Mad</h4>
