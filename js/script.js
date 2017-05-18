@@ -25,7 +25,7 @@ function pauseAudio() {
 //variabler for indholdet på menukortet
 //VINCAFÉ UNDERSIDEN
 //Menupunkt: Vinkort
-var vinvinkortet = '<h3 class="col-xs-12">Vinkort</h3><p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> <a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Hent en pdf-fil af vores vinkort</a><img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p>';
+var vinvinkortet = '<h3 class="col-xs-12">Vinkort</h3><p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br> <a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br><br><a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br><br><a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a><img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right"></p>';
 //Menupunkt: Lørdagsmad
 var vinlordagsmad = '<h3>Lørdagsmad på Vincaféen</h3><p>8. april: And med citronmelisse, jordskokker og løg<br><br>22. april: Okse med persille, persillerod og svampe<br><br>6. maj: Kylling med asparges og spinat<br><br>20. maj: Lam med blomkål, gulerødder og salvie<br><br>3. juni: Kalv med ærter, løg og spidskål</p><br><p><strong>Bordbestilling</strong> sker i Vincaféen eller på vincafeen@loeves.dk<br>Efter først-til-mølle princip</p>';
 //Menupunkt: Drikke
@@ -42,12 +42,12 @@ var bogalkohol = '<h3 class="col-xs-12">Alkohol</h3><div class="col-sm-6"><table
 //Menupunkt: 
 var bogmad = '<h3 class="col-xs-12">Mad</h3><div class="col-sm-6"><table width="100%">  <tbody><tr> <td>Hjemmelavet brød med smør, ost og marmelade (kl. 09-14)</td>  <td>30,-</td>  </tr>  <tr>     <td>Salat</td><td>70,- </td></tr><tr> <td>Sandwich</td><td>70,-</td> </tr><tr> <td>Ostetallerken</td><td>85,-</td></tr><tr>    <td>Aftensnack (kl. 21-24)</td><td>60,-</td></tr><tr>    <td>Hjemmelavet brownie</td><td>30/50,-</td></tr><tr>   <td>Hjemmelavet brownie inkl. kaffe</td> <td>50,-</td></tr></tbody></table></div><div class="col-sm-6"><table width="100%"><tbody>    <tr> <td>Hjemmelavet brød med smør, ost, marmelade + valgfri kaffe</td> <td>45,-</td></tr><tr><td>Snack tallerken</td>    <td>70,- </td></tr> <tr><td>Pølse / ost tallerken</td><td>85,-</td> </tr>    <tr><td>Tapas for 2, inkl. 1 flaske vin</td><td>325,-</td></tr><tr><td>Peanuts/oliven/mandler</td><td>25,-</td></tr><tr>   <td>Croissant (alm. / chokolade)</td> <td>20,-</td></tr></tbody></table></div>';
 //Menupunkt: 
-var bogvinkort = '';
+
 
 
 //FUNKTIONER DER INDSÆTTER VARIABLERNE I ID=MENUINDHOLD
 //VINCAFE UNDERSIDEN
-//Menupunkt: Vinkort
+//Menupunkt: Vinkort OG for vinkort på undersiden for Bog og vincafé
 function vvinkort() {
 	document.getElementById("menuindhold").innerHTML = vinvinkortet;
 };
@@ -76,8 +76,5 @@ function balkohol() {
 function bmad() {
 	document.getElementById("menuindhold").innerHTML = bogmad;
 };
-//Menupunkt: Vinkort
-function bvinkort() {
-	document.getElementById("menuindhold").innerHTML = bogvinkort;
-};
+
 

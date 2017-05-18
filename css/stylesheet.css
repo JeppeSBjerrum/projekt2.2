@@ -183,8 +183,11 @@ tr {
 /*sort kasse styling*/
 
 .boks {
-	background-color: rgba(0,0,0,0.70);
+	background-color: rgba(0,0,0,0.60);
 	color: white;
+	
+}
+.carousel-inner .boks, .smagning {
 	padding: 40px;
 }
 /*nav - header.php*/
@@ -200,7 +203,6 @@ tr {
 nav ul {
 	list-style: none;
 	float: right;
-	background-color: rgba(0,0,0,0.50);
 	margin-top: 30px;
 	padding: 0px;
 	
@@ -223,9 +225,42 @@ nav a:hover, nav a:visited:hover {
 	position: absolute;
 	margin: 10px;
 }
+.nav2 {display: none;
+width: 150px;
+float: right;
+color: white;
+	margin-top: 30px;
+}
+.nav2 li, .nav2 .panel-heading {
+	height: 60px;
+}
+.nav2 .panel-group .panel {
+	border-radius: 0px;
+}
+.panel a, .panel a:hover, .panel a:visited, .panel a:visited:hover {
+	color: white;
+	text-decoration: none;
+}
+.nav2 .boks {
+	padding: 10px;
+}
+.nav2 .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+.nav2 .panel-default {
+	background-color: transparent;
+}
+.panel {
+	background-color: transparent;
+}
+.nav2 .panel-title {
+	padding: 20px;
+	padding-top: 10px;
+}
 /*Styling af knapper*/
 
-.btn-custom {
+.btn-custom, .btn-custom:visited {
 	border: 2px solid white;
 	color: white;
 	border-radius: 0px;
@@ -389,5 +424,10 @@ height: 100vh;
 }
 
 @media screen and (max-width:950px) {
-	nav{}}
+	nav{display: none;
+	}
+	.nav2 {display: block;}}
+@media screen and (max-width:505px) {
+	.nav2 {width: 30vw;}
+	#logo {width: 60vw;}
 }

@@ -131,7 +131,11 @@ Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op
 
 							<div class="carousel-caption boks">
 
-								<p>Både rød, hvid, rosé og mousserende vin</p>
+								<p>
+								Rødvin:<br>
+Rosado ”Selección”, 2015(tempranillo) <br>
+<br>
+Bodegas Lambuena, Ribera del Duero, Castilla y Léon, Frankrig </p>
 
 							</div>
 
@@ -143,7 +147,11 @@ Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op
 
 							<div class="carousel-caption boks">
 
-								<p>Vin i alle prisklasser</p>
+								<p>Hvidvin:<br>
+
+								Nunci Blanc, 2013(garnacha blanca & macabeo) <br>
+<br>Nunci, Priorat, Catalonien, Spanien
+</p>
 
 							</div>
 
@@ -155,7 +163,7 @@ Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op
 
 							<div class="carousel-caption boks">
 
-								<p>Vin fra hele verden</p>
+								<p>Kom forbi og hør om de over 200 andre vine, som vi har i vores sortiment!</p>
 
 							</div>
 
@@ -209,7 +217,15 @@ Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op
 
 					<h3 class="col-xs-12">Vinkort</h3>
 
-					<p class="col-xs-12">For os er det vigtigt, at vores gæster har mulighed for at smage en masse forskelligt, så vi har valgt ikke at have faste vine på glas, men derimod åbne forskellige flasker alt efter udbuddet. På denne måde kan vi hver dag tilbyde nye vine på glas, samt give dem, der vil købe vin med hjem, mulighed for at smage, før de køber. <br><br>Priserne på vin ud af huset er naturligvis billigere end vine, der nydes i caféen, men uanset om du nyder vin hos os eller derhjemme, så er der altid gode priser. Og hvis man køber flere vine med hjem, er der selvfølgelig også mulighed for at få rabat, ligesom glasprisen på vine, der nydes i caféen, er ¼ af flaskeprisen, hvilket betyder, at man får det 5. glas gratis, når man køber en flaske. <br><br><br> <a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Hent en pdf-fil af vores vinkort</a><img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
+					<p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br> 
+					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br>
+<br>
+
+					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br>
+<br>
+
+					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a>
+					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
 
 					</p>
 
@@ -235,9 +251,13 @@ Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op
 
 				<h2>Privat vinsmagning</h2>
 
-				<p>Hvis du mangler et sted at holde din fest, fødselsdag, reception, polterabend, konfirmation eller andet selskabelighed, så har vi lokalerne til dig. I hyggelige og rustikke omgivelser tilbyder vi ikke blot et lokale med plads til mere end 30 personer, men også en velrustet bar, et godt køkken og ikke mindst søde vintjenere. Om det er på en hverdag eller i weekenden, du ønsker at booke lokalet, betyder ikke noget. Du skriver bare en mail til aa-cafe@loeves.dk med dine ønsker og så stykker vi din begivenhed sammen efter dine behov.<br>
+				<p>Hvis du mangler et sted at holde din fest, fødselsdag, reception, polterabend, konfirmation eller andet selskabelighed, så har vi lokalerne til dig. I hyggelige og rustikke omgivelser tilbyder vi ikke blot et lokale med plads til mere end 30 personer, men også en velrustet bar, et godt køkken og ikke mindst søde vintjenere.
 
-					<br> Lokalerne kan bookes fra mandag til fredag i tidsrummet 9-24, lørdag 10-24 samt om søndagen fra 10-18.
+					<br> Lokalerne kan bookes fra mandag til fredag i tidsrummet 9-24, lørdag 10-24 samt om søndagen fra 10-18.<br>
+
+Kontakt os blot med dine ønsker og så stykker vi din begivenhed sammen efter dine behov.<br>
+<br>
+
 
 				</p>
 

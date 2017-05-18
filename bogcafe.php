@@ -173,7 +173,7 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bdrikke()">Drikke</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="balkohol()">Alkohol</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bmad()">Mad</h4>
-					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bvinkort()">Vinkort</h4>
+					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="vvinkort()">Vinkort</h4>
 				</div>
 				<div id="menuindhold">
 					<h3 class="col-xs-12">Varmt</h3>
