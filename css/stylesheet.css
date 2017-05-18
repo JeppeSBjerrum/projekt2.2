@@ -140,6 +140,15 @@ a:hover, a:visited:hover {
 #menu{
 	font-family: Grumble;
 }
+#menu table, #menu p, #menu a{
+	font-size: 18px;
+}
+#menu h3 {
+	font-size: 28px;
+}
+#menu h4 {
+	font-size: 22px;
+}
 #menuindhold table {
 	margin-bottom: 20px;
 	border-top: 2px solid white;
@@ -191,6 +200,7 @@ nav ul {
 	background-color: rgba(0,0,0,0.50);
 	margin-top: 30px;
 	padding: 0px;
+	
 }
 nav ul li {
 	float: left;
@@ -373,4 +383,8 @@ height: 100vh;
  width: auto;
 	 margin: auto;
 }
+}
+
+@media screen and (max-width:950px) {
+	nav{}}
 }
