@@ -21,7 +21,7 @@ Mandag-Fredag: 9-24 <br>
 Lørdag: 10-24 <br>
 
 Søndag: 10-18 </p>
-<a href="#"><img src="images/fblogo.png" width="50px" alt=""></a>
+<a href="https://www.facebook.com/loevesbogcafe"><img src="images/fblogo.png" width="50px" alt=""></a>
 <a href="https://www.instagram.com/lovesbogogvincafe/"><img src="images/iglogo.png" width="50px" alt=""></a>
 </div>
 <div class="col-xs-6 col-sm-3">
@@ -42,7 +42,7 @@ vincafeen@loeves.dk</a><br>
 					</p>
 
 
-	<a href="#"><img src="images/fblogo.png" width="50px" alt=""></a>
+	<a href="https://www.facebook.com/loevesvincafe/"><img src="images/fblogo.png" width="50px" alt=""></a>
 	
 	<a href="https://www.instagram.com/vincafeen/"><img src="images/iglogo.png" width="50px" alt=""></a>
 </div>
