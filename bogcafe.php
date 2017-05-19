@@ -263,11 +263,41 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 		</div>
 	</div>
 </div>
+<div class="row">
 <div class="instagramfeed">
-<img src="images/Udklip.JPG" alt="" class="col-sm-3 col-xs-6">
-<img src="images/Udklip2.JPG" alt="" class="col-sm-3 col-xs-6">
-<img src="images/Udklip3.JPG" alt="" class="col-sm-3 col-xs-6">
-<img src="images/Udklip4.JPG" alt="" class="col-sm-3 col-xs-6">
+<div class="container col-sm-3 col-xs-6 col-md-3">
+ <a href="https://www.instagram.com/lovesbogogvincafe/">
+  <img src="images/Udklip.JPG" alt="Avatar" class="instagramimage">
+  <div class="overlay">
+    <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
+  </div>
+	</a>
+</div>
+<div class="container col-sm-3 col-xs-6 col-md-3">
+ <a href="https://www.instagram.com/lovesbogogvincafe/">
+  <img src="images/Udklip2.JPG" alt="Avatar" class="instagramimage">
+  <div class="overlay">
+    <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
+  </div>
+	</a>
+</div>
+<div class="container col-sm-3 col-xs-6 col-md-3">
+ <a href="https://www.instagram.com/lovesbogogvincafe/">
+  <img src="images/Udklip3.JPG" alt="Avatar" class="instagramimage">
+  <div class="overlay">
+    <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
+  </div>
+	</a>
+</div>
+<div class="container col-sm-3 col-xs-6 col-md-3">
+ <a href="https://www.instagram.com/lovesbogogvincafe/">
+  <img src="images/Udklip4.JPG" alt="Avatar" class="instagramimage">
+  <div class="overlay">
+    <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
+  </div>
+	</a>
+</div>
+</div>
 </div>
 <!--FOOTER-->
 <footer>
