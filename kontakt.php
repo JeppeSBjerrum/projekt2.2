@@ -14,7 +14,7 @@ include( "header.php" )
 		</div>
 		<div class="row kontaktspalte">
 <div class="col-xs-12 text-center velkommen1"><h1>Kontakt os</h1>
-			<h2>Bordreservation, arrangementer, andre spørgsmål?</h2></div>s
+			<h2>Bordreservation, arrangementer, andre spørgsmål?</h2></div>
 
 			<div class="col-sm-6 kontaktformular">
 				
