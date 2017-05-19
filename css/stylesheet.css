@@ -6,6 +6,7 @@
 body {
 	font-family: Ubuntu;
 	overflow-x: hidden;
+	overflow-y: auto;
 }
 #indexsite body {
 	overflow: hidden;
@@ -25,6 +26,20 @@ a:hover, a:visited:hover {
 }
 p, table {
 	font-size: 16px;
+}
+/*http://codepen.io/thetallweeks/pen/EaBpx*/ 
+::-webkit-scrollbar {
+ width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+ background-color: rgba(51,51,51,1);
+}
+
+::-webkit-scrollbar-thumb {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ background: rgba(112,10,41,1);
 }
 /*Forsiden på laptop*/
 
@@ -466,9 +481,9 @@ input {
 	margin-top: 30vh;
 	margin-left: -5vw;
 }
-	.textbox h3{
-		margin-top: 7%;
-	}
+.textbox h3 {
+	margin-top: 7%;
+}
 .logo {
 	position: fixed;
 	margin-left: -5vw;
