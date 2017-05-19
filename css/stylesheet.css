@@ -29,6 +29,7 @@ p, table {
 	font-size: 16px;
 }
 /*http://codepen.io/thetallweeks/pen/EaBpx*/ 
+/*styling af scrollbaren*/
 ::-webkit-scrollbar {
  width: 10px;
 }
