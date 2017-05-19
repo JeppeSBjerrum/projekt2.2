@@ -77,15 +77,16 @@ include( "header.php" );
 			
 			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Hvem er vi</h3>
-				<p>Vincaféen er stedet, hvor vinhandel og café får sit helt eget udtryk i hyggelige, rustikke og levende omgivelser. Vores fokus ligger på selvimporterede kvalitetsvine til gode priser, som enten kan nydes i caféen eller tages med hjem til favorable priser.<br>
+				<p>Vincaféen er stedet, hvor vinhandel og café får sit helt eget udtryk i hyggelige, rustikke og levende omgivelser. <br>
 <br>
-
-
-Vores mål er at skabe et sted, hvor kvalitet, hygge og professionalisme går op i en højere enhed; et sted, hvor man samles om vin, mad og kaffe; hvor man kan slappe af. Kort og godt et sted, hvor vin, mad, café og kultur går op i en højere enhed.</p>
+Vores fokus ligger på selvimporterede kvalitetsvine til gode priser, som enten kan nydes i caféen eller tages med hjem til favorable priser.<br>
+</p>
 			</div>
 			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Om Løve's</h3>
-				<p></p>
+				<p>Løve's blev etableret i Århus i 2008, men stammer egentligt helt tilbage fra 2004, hvor idéerne først opstod hos grundlæggeren. <br>
+<br>
+Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte sig ind i hjertet på et dreng tilbage i 80'erne.</p>
 			</div>
 		</div>
 
@@ -218,13 +219,14 @@ Bodegas Lambuena, Ribera del Duero, Castilla y Léon, Frankrig </p>
 					<h3 class="col-xs-12">Vinkort</h3>
 
 					<p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br> 
-					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br>
+					
+					<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br>
 <br>
 
-					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br>
+					<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br>
 <br>
 
-					<a href="vinkort-vincafeen.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a>
+					<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a>
 					<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
 
 					</p>

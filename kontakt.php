@@ -10,68 +10,31 @@ include( "header.php" )
 	<div class="container">
 		<div class="row">
 
-			<h1 class="col-xs-12">Kontakt os</h1>
+
 		</div>
 		<div class="row kontaktspalte">
+<div class="col-xs-12 text-center velkommen1"><h1>Kontakt os</h1>
+			<h2>Bordreservation, arrangementer, andre spørgsmål?</h2></div>s
 
-			<div class="col-sm-5 kontaktoplys">
-				<div class="row kontaktrow">
-					<img src="images/bogcafelogosort.png" alt=""><br><br>
-
-
-				</div>
-
-				<div class="row">
-					<div class="col-sm-7">
-
-						<p>Løve's Bog- og VinCafé<br> Nørregade 32<br> 8000 Århus C<br>
-							<br> <a href="callto:+4527831633">27 83 16 33</a><br> <a href="mailto:aa-cafe@loeves.dk">aa-cafe@loeves.dk</a>
-
-						</p>
-					</div>
-					<div class="col-sm-5">
-						<p><strong>Åbningstider</strong> <br> Mandag-Fredag: 9-24 <br> Lørdag: 10-24 <br> Søndag: 10-18 </p>
-					</div>
-				</div><br>
-				<br>
-
-				<div class="row kontaktrow">
-					<img src="images/vincafelogosort.png" alt=""><br>
-					<br>
-				</div>
-				<div class="row">
-					<div class="col-sm-7">
-						<p> Vincaféen<br> Borggade 14<br> 8000 Århus C
-							<br>
-							<br> <a href="callto:+4552175016">52 17 50 16</a><br> <a href="mailto:vincafeen@loeves.dk">vincafeen@loeves.dk</a>
-
-						</p>
-					</div>
-					<div class="col-sm-5">
-						<p><strong>Åbningstider</strong> <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-6">
+			<div class="col-sm-6 kontaktformular">
+				
 				<form method="post" action="http://www.jungild.dk/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
 document.charset = 'ISO-8859-1'; 
 window.onbeforeunload = function () {document.charset=originalCharset;};">
 
 					<div class="form-group">
-						<label for="form_name">Fornavn *</label><br>
+						<label for="form_name">Navn *</label>
 
-						<input name="realname" />
+						<input name="realname"/>
 						<div class="help-block with-errors"></div>
 					</div>
 					<div class="form-group">
-						<label for="form_email">Email *</label><br>
+						<label for="form_email">Email *</label>
 
-						<input name="email" />
+						<input name="email"/>
 						<div class="help-block with-errors"></div>
 					</div>
-					
+
 					<div class="form-group">
 						<label for="form_message">Din besked *</label><br>
 
@@ -81,7 +44,7 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 
 
 
-					<input type="submit" value="Send"/>
+					<input type="submit" class="btn-custom2" value="Send"/>
 					<input type="hidden" name="recipient" value="kim@jungild.dk"/>
 					<input type="hidden" name="subject" value="Subject"/>
 					<input type="hidden" name="redirect" value="http://www.jungild.dk/"/>
@@ -90,6 +53,40 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 					<input type="hidden" name="required" value="realname,email,message"/>
 				</form>
 			</div>
+			
+			<div class="col-sm-3 kontaktrow">
+					<img src="images/bogcafelogosort.png" alt=""><br>
+					<br>
+				
+
+
+				<p>Løve's Bog- og VinCafé<br> Nørregade 32<br> 8000 Århus C<br>
+					<br> <a href="callto:+4527831633">27 83 16 33</a><br> <a href="mailto:aa-cafe@loeves.dk">aa-cafe@loeves.dk</a>
+
+				</p><br>
+
+				<p><strong>Åbningstider</strong> <br> Mandag-Fredag: 9-24 <br> Lørdag: 10-24 <br> Søndag: 10-18 </p>
+
+				<br>
+				<br>
+			</div>
+			
+				<div class="col-sm-3 kontaktrow">
+					<img src="images/vincafelogosort.png" alt=""><br>
+					<br>
+				
+
+					<p> Vincaféen<br> Borggade 14<br> 8000 Århus C
+						<br>
+						<br> <a href="callto:+4552175016">52 17 50 16</a><br> <a href="mailto:vincafeen@loeves.dk">vincafeen@loeves.dk</a>
+
+					</p><br>
+
+
+					<p><strong>Åbningstider</strong> <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
+					</p>
+
+				</div>
 		</div>
 	</div>
 </div>

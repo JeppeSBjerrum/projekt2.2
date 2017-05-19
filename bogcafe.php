@@ -63,21 +63,21 @@ include( "header.php" )
 			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Hvem er vi</h3>
 				<p>Løve's Bog- og VinCafé er stedet, hvor litteratur, mad og vin hænger uløseligt sammen, og hvor kulturen er levende.<br>
+<br>
 
 
-Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.<br><br>
-
-
-
-Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst til at komme ud, så kig forbi Nørregade 32. </p>
+Vi er både en boghandel, der sælger nye bøger, en café med mad og drikke, en vinbar, der har mere end 130 forskellige, egen importerede vine fra hele Europa, og et kultursted med masser livearrangementer i form af koncerter, oplæsning, foredrag og poesievents.</p>
 			</div>
 			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Om Løve's</h3>
-				<p></p>
+				<p>Løve's blev etableret i Århus i 2008, men stammer egentligt helt tilbage fra 2004, hvor idéerne først opstod hos grundlæggeren. <br>
+<br>
+Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte sig ind i hjertet på et dreng tilbage i 80'erne.</p>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--CAROUSEL-->
 
 <div id="bogeventscarousel" class="carousel slide" data-ride="carousel">
@@ -130,9 +130,9 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 			<img src="images/vinreol.jpg" class="hidden-xs" alt="">
 			<img src="images/kauselmobil.jpg" class="hidden-sm hidden-md hidden-lg" alt="">
 			<div class="carousel-caption boks">
-				<h3>Vinsmagning</h3>
-				<h4>Åben vinsmagning 1.lørdag hver måned kl. 15-17, <br>  5 forskellige vine 75 kr.</h4>
-				<p class="hidden-xs">Hver lørdag åbner vi 5 vine op som du kan smage, for kun 75 kroner. Smag, bedøm og måske lær en smule omkring forskellige vine og druer. <br><br> Ellers bestil en privat vinsmagning. Smagningen koster 250 kr. pr. person (min. 8 personer) og varer 2-3 timer, hvor I bare skal læne jer tilbage og få en masse at vide om vin, mens I nyder 7-8 forskellige vine.</p>
+				<h3>Åben vinsmagning</h3>
+				<h4>1.lørdag hver måned kl. 15-17, <br>  5 forskellige vine 75 kr.</h4>
+				<p class="hidden-xs hidden-sm">Hver lørdag åbner vi 5 vine op som du kan smage, for kun 75 kroner. Smag, bedøm og måske lær en smule omkring forskellige vine og druer. <br><br> Ellers bestil en privat vinsmagning. Smagningen koster 250 kr. pr. person (min. 8 personer) og varer 2-3 timer, hvor I bare skal læne jer tilbage og få en masse at vide om vin, mens I nyder 7-8 forskellige vine.</p>
 
 			</div>
 		</div>
@@ -262,6 +262,12 @@ Så hvad enten du mangler en bog, en bid mad, et glas vin eller bare har lyst ti
 			</div>
 		</div>
 	</div>
+</div>
+<div class="instagramfeed">
+<img src="images/Udklip.JPG" alt="" class="col-sm-3 col-xs-6">
+<img src="images/Udklip2.JPG" alt="" class="col-sm-3 col-xs-6">
+<img src="images/Udklip3.JPG" alt="" class="col-sm-3 col-xs-6">
+<img src="images/Udklip4.JPG" alt="" class="col-sm-3 col-xs-6">
 </div>
 <!--FOOTER-->
 <footer>

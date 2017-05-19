@@ -14,15 +14,15 @@ Nørregade 32<br>
 <a href="mailto:">aa-cafe@loeves.dk</a><br>
 <br>
 
-	Åbningstider <br>
+	<strong>Åbningstider </strong><br>
 
 Mandag-Fredag: 9-24 <br>
 
 Lørdag: 10-24 <br>
 
 Søndag: 10-18 </p>
-<a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
-<a href="https://www.instagram.com/lovesbogogvincafe/"><img src="images/iglogo.png" width="40px" alt=""></a>
+<a href="#"><img src="images/fblogo.png" width="50px" alt=""></a>
+<a href="https://www.instagram.com/lovesbogogvincafe/"><img src="images/iglogo.png" width="50px" alt=""></a>
 </div>
 <div class="col-xs-6 col-sm-3">
 	<h3>Vincaféen</h3>
@@ -38,26 +38,13 @@ Borggade 14<br>
 <br>
 <a href="mailto:vincafeen@loeves.dk">
 vincafeen@loeves.dk</a><br>
-<br>
-Åbningstider <br>
+<br><strong>Åbningstider</strong> <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
+					</p>
 
-Mandag: Lukket <br>
 
-Tirsdag: 16-22 <br>
-
-Onsdag: 16-22 <br>
-
-Torsdag: 16-24 <br>
-
-Fredag: 15-24 <br>
-
-Lørdag: 15-24 <br>
-
-Søndag: Lukket 
-	</p>
-	<a href="#"><img src="images/fblogo.png" width="40px" alt=""></a>
+	<a href="#"><img src="images/fblogo.png" width="50px" alt=""></a>
 	
-	<a href="https://www.instagram.com/vincafeen/"><img src="images/iglogo.png" width="40px" alt=""></a>
+	<a href="https://www.instagram.com/vincafeen/"><img src="images/iglogo.png" width="50px" alt=""></a>
 </div>
 <div class="col-sm-3 hidden-xs">
 <h3>Sitemap</h3>	
@@ -70,8 +57,17 @@ Søndag: Lukket
 <a href="kontakt.php">Kontakt</a>
 </div>
 
-	<div class="col-sm-3 col-xs-12">
-	<h3>Kontakt</h3>
+	<div class="col-sm-3 col-xs-12 deloplevelsen">
+	<h3>Del oplevelsen</h3>
+
+<br>
+<h4>
+#løvesbogogvincafe
+<br>
+<br>
+
+#vincafeen</h4>
+<br>
 </div>
 	
 </div>
@@ -80,7 +76,7 @@ Søndag: Lukket
 	<br>
 <br>
 
-	Løve's - <?php echo date('Y');?>
+	<a href="http://www.jungild.dk/">Denne hjemmeside er lavet som eksamensprojekt og kan ikke sættes i forbindelse med Løve's</a> - <?php echo date('Y');?>
 </div>
 </div>
 </footer>

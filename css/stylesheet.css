@@ -23,6 +23,7 @@ a {
 a:hover, a:visited:hover {
 	color: black;
 }
+p, table {font-size: 16px;}
 /*Forsiden på laptop*/
 
 
@@ -115,7 +116,6 @@ a:hover, a:visited:hover {
 	border-bottom: 2px solid black;
 }
 .velkommen2 {
-	
 	margin-top: 20px;
 }
 .hvemervi {
@@ -126,7 +126,6 @@ a:hover, a:visited:hover {
 	padding-left: 40px;
 	padding-right: 40px;
 }
-
 .velkomstkasse {
 	background-image: url(../images/paper.png);
 	background-size: cover;
@@ -142,10 +141,10 @@ a:hover, a:visited:hover {
 .menucarousel {
 	margin-bottom: 30px;
 }
-#menu{
+#menu {
 	font-family: Grumble;
 }
-#menu table, #menu p, #menu a{
+#menu table, #menu p, #menu a {
 	font-size: 22px;
 }
 #menu h3 {
@@ -179,10 +178,10 @@ tr {
 .tavle a {
 	color: white;
 }
-.tavle a:hover, .tavle a:visited:hover{
+.tavle a:hover, .tavle a:visited:hover {
 	color: white;
 }
-.tavle a:visited{
+.tavle a:visited {
 	color: white;
 }
 /*sort kasse styling*/
@@ -190,7 +189,6 @@ tr {
 .boks {
 	background-color: rgba(0,0,0,0.70);
 	color: white;
-	
 }
 .carousel-inner .boks, .smagning {
 	padding: 40px;
@@ -204,13 +202,11 @@ tr {
 .lydknapper img:hover {
 	cursor: pointer;
 }
-
 nav ul {
 	list-style: none;
 	float: right;
 	margin-top: 30px;
 	padding: 0px;
-	
 }
 nav ul li {
 	float: left;
@@ -230,10 +226,11 @@ nav a:hover, nav a:visited:hover {
 	position: absolute;
 	margin: 10px;
 }
-.nav2 {display: none;
-width: 150px;
-float: right;
-color: white;
+.nav2 {
+	display: none;
+	width: 150px;
+	float: right;
+	color: white;
 	margin-top: 30px;
 }
 .nav2 li, .nav2 .panel-heading {
@@ -277,12 +274,28 @@ color: white;
 .btn-custom:hover, .btn-custom:visited:hover {
 	color: white;
 	cursor: pointer;
-	border: 2px solid grey;
 	border: 2px solid #700a29;
 }
-
 .menukortknapper .btn-custom:hover, .menukortknapper .btn-custom:visited:hover {
 	border: 2px solid grey;
+}
+.btn-custom2, .btn-custom2:visited  {
+	border: 2px solid black;
+	color: black;
+	border-radius: 0px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	height: 3em;
+	width: 100px;
+	
+	font-size: 16px;
+	
+}
+.btn-custom2:hover, .btn-custom2:visited:hover {
+	border: 2px solid #700a29;
 }
 
 /*footer*/
@@ -293,6 +306,7 @@ footer .row {
 footer {
 	background-color: #700a29;
 	color: white;
+	line-height: 2em;
 }
 footer a, footer a:hover, footer a:visited:hover {
 	color: white;
@@ -326,7 +340,9 @@ footer .text-center {
 	min-width: 300px;
 }
 /*KONTAKT UNDEDRSIDE*/
-
+.kontaktspalte .velkommen1 {
+	margin-bottom: 40px;
+}
 .navbillede {
 	height: 60vh;
 	background-image: url(../images/IMG_0766.JPG);
@@ -339,13 +355,34 @@ footer .text-center {
 	width: 200px;
 }
 .kontaktrow {
-	border-top: 2px solid black;
+	text-align: center;
 	padding-top: 20px;
+}
+.kontaktformular {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+form {
+	font-size: 16px;
+}
+input, textarea {
+	padding: 8px;
+	border: 0;
+	width: 100%;
+	border-radius: 2px;
+}
+input {
+	height: 2.5em;
 }
 /*BOGCAFE UNDERSIDE*/
 
 .bogmenuimg {
 	padding-bottom: 30px;
+}
+.instagramfeed img {
+	padding-right: 0;
+	padding-left: 0;
+	border: 10px solid white;
 }
 
 @media screen and (max-width:767px) {
@@ -414,43 +451,63 @@ footer .text-center {
 	height: 30vh;
 	width: auto;
 }/*Velkomskasser*/
-	.velkomstkasse {
-		background-image: url(../images/paper2.png);
-	}
+.velkomstkasse {
+	background-image: url(../images/paper2.png);
+}
+.velkommen2 {
+	text-align: center;
+}
 /*kontakt.php siden*/
 
 
-.kontaktoplys {
-	text-align: center;
+.kontaktrow, .kontaktformular {
+	border-top: 2px solid black;
+	margin-top: 30px;
 }
+	.deloplevelsen {
+		text-align: center;
+		border-top: 2px solid white;
+		margin-top: 40px;
+	}
 }
+
 @media screen and (max-width:1270px) {
- .storvideo video {
-height: 100vh;
- width: auto;
-	 margin: auto;
+.storvideo video {
+	height: 100vh;
+	width: auto;
+	margin: auto;
 }
 }
 
 @media screen and (max-width:950px) {
-	nav{display: none;
-	}
-	.nav2 {display: block;}
-	.storvideo video {display: none;}
-	#bogvideo{
-		background-image: url(../images/bogcafeheader.jpg);
-		background-size: cover;
-		height: 70vh;
-		margin-bottom: -200px;
-	}
-	#vinvideo {
-		background-image: url(../images/vincafeheader.jpg);
-		background-size: cover;
-		height: 70vh;
-		margin-bottom: -200px;
-	}
+nav {
+	display: none;
 }
+.nav2 {
+	display: block;
+}
+.storvideo video {
+	display: none;
+}
+#bogvideo {
+	background-image: url(../images/../images/kauselmobil3.jpg);
+	background-size: cover;
+	height: 70vh;
+	margin-bottom: -200px;
+}
+#vinvideo {
+	background-image: url(../images/vin3.jpg);
+	background-size: cover;
+	height: 70vh;
+	margin-bottom: -200px;
+}
+}
+
 @media screen and (max-width:505px) {
-	.nav2 {width: 30vw;}
-	#logo {width: 60vw;}
+.nav2 {
+	width: 30vw;
+}
+#logo {
+	width: 60vw;
+}
 }
