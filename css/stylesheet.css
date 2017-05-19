@@ -1,4 +1,7 @@
-@import url(../fonts/grumble_tt.ttf);
+@font-face {
+    font-family: Grumble;
+    src: url(../fonts/grumble_tt.ttf);
+}
 /*BASICS*/
 
 
