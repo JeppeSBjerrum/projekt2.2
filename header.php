@@ -13,9 +13,10 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<!--icon-->
+	<link rel="icon" href="images/loevesicon.ico">
 	
   </head>
-  <body>
+  <body onLoad="<?php echo $menufunktion;?>">
   <div class="container-fluid">
   <!--Logo og nav-->
   

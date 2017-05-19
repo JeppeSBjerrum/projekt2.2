@@ -4,6 +4,8 @@ $pagetitle = 'Vincaféen';
 
 $pagelogo = 'images/vincafelogohvidskygge.png';
 
+$menufunktion = 'vvinkort()';
+
 include( "header.php" );
 
 ?>
@@ -217,21 +219,7 @@ include( "header.php" );
 
 				<div id="menuindhold" class="col-xs-12">
 
-					<h3 class="col-xs-12">Vinkort</h3>
-
-					<p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br>
-
-						<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br>
-						<br>
-
-						<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br>
-						<br>
-
-						<a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a>
-						<img src="images/loevesgamlelogo.png" alt="" width="150px" class="pull-right">
-
-					</p>
-
+					
 				</div>
 
 			</div>

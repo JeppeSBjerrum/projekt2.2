@@ -1,6 +1,7 @@
 <?php
 $pagetitle = 'Løve´s Bog- og Vincafé';
 $pagelogo = 'images/bogcafelogohvidskygge.png';
+$menufunktion = 'bvarmt()';
 include( "header.php" )
 ?>
 
@@ -170,101 +171,21 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 
 			<div class="col-sm-7" id="menu">
 				<div class="row menukortknapper">
-					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bdrikke()">Drikke</h4>
-					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="balkohol()">Alkohol</h4>
+					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bvarmt()">Varmt</h4>
+					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bkoldt()">Koldt</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="bmad()">Mad</h4>
 					<h4 class="col-xs-6 col-sm-3 btn-custom" onclick="vvinkort()">Vinkort</h4>
 				</div>
 				<div id="menuindhold">
-					<h3 class="col-xs-12">Varmt</h3>
-					<div class="col-sm-6">
-						<table width="100%">
-							<tbody>
-								<tr>
-									<td>Espresso</td>
-									<td>20,-</td>
-								</tr>
-								<tr>
-									<td>Cortado</td>
-									<td>27,-</td>
-								</tr>
-								<tr>
-									<td>Cappuccino</td>
-									<td>30,-</td>
-								</tr>
-								<tr>
-									<td>Latte</td>
-									<td>35/45,-</td>
-								</tr>
-								<tr>
-									<td>Te</td>
-									<td>25,-</td>
-								</tr>
-								<tr>
-									<td>Chai latte</td>
-									<td>40,-</td>
-								</tr>
-								<tr>
-									<td>Iskaffe</td>
-									<td>35/55,-</td>
-								</tr>
-								<tr>
-									<td>Sodavand</td>
-									<td>28,-</td>
-								</tr>
-								<tr>
-									<td>Ekstra skud espresso</td>
-									<td>5,-</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-sm-6">
-						<table width="100%">
-							<tbody>
-								<tr>
-									<td>Americano</td>
-									<td>25,-</td>
-								</tr>
-								<tr>
-									<td>Cafe au Lait</td>
-									<td>30,-</td>
-								</tr>
-								<tr>
-									<td>Caffe mokka</td>
-									<td>35,-</td>
-								</tr>
-								<tr>
-									<td>Stempelkande</td>
-									<td>40/65,-</td>
-								</tr>
-								<tr>
-									<td>Kande te</td>
-									<td>55,-</td>
-								</tr>
-								<tr>
-									<td>Chokolade</td>
-									<td>33,-</td>
-								</tr>
-								<tr>
-									<td>Øko safter</td>
-									<td>32/38,- </td>
-								</tr>
-								<tr>
-									<td>Valgfri to-go kaffe</td>
-									<td>25,-</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+					
 				</div>
 
 			</div>
 		</div>
 	</div>
 </div>
-<div class="row">
-<div class="instagramfeed">
+<div class="row instagramfeed hidden-xs">
+
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
   <img src="images/Udklip.JPG" alt="Avatar" class="instagramimage">
@@ -298,7 +219,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 	</a>
 </div>
 </div>
-</div>
+
 <!--FOOTER-->
 <footer>
 	<!-- div hvor maps bliver loadet -->

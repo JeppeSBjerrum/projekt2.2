@@ -396,6 +396,9 @@ input {
 }
 /*instagramfeed og overlay*/
 /*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
+.instagramfeed {
+	background-color: white;
+}
 .instagramfeed img {
 	padding-right: 0;
 	padding-left: 0;

@@ -47,8 +47,8 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 					<input type="submit" class="btn-custom2" value="Send"/>
 					<input type="hidden" name="recipient" value="kim@jungild.dk"/>
 					<input type="hidden" name="subject" value="Subject"/>
-					<input type="hidden" name="redirect" value="http://www.jungild.dk/"/>
-					<input type="hidden" name="missing_fields_redirect" value="http://www.jungild.dk/loeves/index.html"/>
+					<input type="hidden" name="redirect" value="http://www.jungild.dk/kontakt.php"/>
+					<input type="hidden" name="missing_fields_redirect" value="http://www.jungild.dk/loeves/kontakt.php"/>
 
 					<input type="hidden" name="required" value="realname,email,message"/>
 				</form>
