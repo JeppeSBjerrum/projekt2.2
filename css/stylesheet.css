@@ -23,7 +23,9 @@ a {
 a:hover, a:visited:hover {
 	color: black;
 }
-p, table {font-size: 16px;}
+p, table {
+	font-size: 16px;
+}
 /*Forsiden på laptop*/
 
 
@@ -279,7 +281,7 @@ nav a:hover, nav a:visited:hover {
 .menukortknapper .btn-custom:hover, .menukortknapper .btn-custom:visited:hover {
 	border: 2px solid grey;
 }
-.btn-custom2, .btn-custom2:visited  {
+.btn-custom2, .btn-custom2:visited {
 	border: 2px solid black;
 	color: black;
 	border-radius: 0px;
@@ -290,14 +292,11 @@ nav a:hover, nav a:visited:hover {
 	background-color: transparent;
 	height: 3em;
 	width: 100px;
-	
 	font-size: 16px;
-	
 }
 .btn-custom2:hover, .btn-custom2:visited:hover {
 	border: 2px solid #700a29;
 }
-
 /*footer*/
 
 footer .row {
@@ -379,16 +378,42 @@ input {
 .bogmenuimg {
 	padding-bottom: 30px;
 }
+/*instagramfeed og overlay*/
+/*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .instagramfeed img {
 	padding-right: 0;
 	padding-left: 0;
-	border: 10px solid white;
+	border: 1vw solid white;
+	max-height: 55vh;
+}
+.overlay {
+	position: absolute;
+	top: 0.5vh;
+	bottom: 0;
+	left: 3vh;
+	right: 0;
+	height: 98%;
+	width: 25vw;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(112,10,41,0.8);
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+.instagramicon img {
+	color: white;
+	border: hidden;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width:767px) {
 /*Forside på Mobil side*/
-
-
 
 .vincafelink {
 	height: 50vh;
@@ -441,10 +466,13 @@ input {
 	margin-top: 30vh;
 	margin-left: -5vw;
 }
+	.textbox h3{
+		margin-top: 7%;
+	}
 .logo {
 	position: fixed;
-	margin-left: 25vw;
-	margin-top: 35vh;
+	margin-left: -5vw;
+	margin-top: 39vh;
 	z-index: 50;
 }
 .logo img {
@@ -464,11 +492,43 @@ input {
 	border-top: 2px solid black;
 	margin-top: 30px;
 }
-	.deloplevelsen {
-		text-align: center;
-		border-top: 2px solid white;
-		margin-top: 40px;
-	}
+.deloplevelsen {
+	text-align: center;
+	border-top: 2px solid white;
+	margin-top: 40px;
+}
+/*instagramfeed på bogcafe.php*/
+.instagramfeed img {
+	padding-right: 0;
+	padding-left: 0;
+	border: 1vw solid white;
+	max-height: 55vh;
+}
+.overlay {
+	position: absolute;
+	top: 0.5vh;
+	bottom: 0;
+	left: 3vh;
+	right: 0;
+	height: 98%;
+	width: 50vw;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(112,10,41,0.0);
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+.instagramicon img {
+	color: white;
+	border: hidden;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
 }
 
 @media screen and (max-width:1270px) {
