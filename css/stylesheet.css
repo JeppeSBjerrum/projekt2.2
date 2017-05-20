@@ -1,594 +1,593 @@
-@font-face {
-    font-family: Grumble;
-    src: url(../fonts/grumble_tt.ttf);
-}
-/*BASICS*/
-
-body {
-	font-family: Ubuntu;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-#indexsite body {
-	overflow: hidden;
-}
-h1 {
-	font-size: 40px;
-	font-weight: 700;
-}
-h3 {
-	font-weight: 500;
-}
-a {
-	color: black;
-}
-a:hover, a:visited:hover {
-	color: black;
-}
-p, table {
-	font-size: 16px;
-}
-/*http://codepen.io/thetallweeks/pen/EaBpx*/ 
-/*styling af scrollbaren*/
-::-webkit-scrollbar {
- width: 10px;
-}
- 
-::-webkit-scrollbar-track {
- background-color: rgba(51,51,51,1);
-}
-
-::-webkit-scrollbar-thumb {
- -webkit-border-radius: 10px;
- border-radius: 10px;
- background: rgba(112,10,41,1);
-}
-/*Forsiden på laptop*/
-
-
-
-.bogcafelink {
-	height: 100vh;
-	width: 50%;
-	background-image: url(../images/bogcafe2.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bogcafelink:hover {
-	height: 100vh;
-	width: 50%;
-	background-image: url(../images/IMG_0760.JPG);
-}
-.textbox1 {
-	height: 15vh;
-	width: 52vw;
-	background-color: rgba(0,0,0,0.60);
-	color: white;
-	float: left;
-	margin-left: -2vw;
-	margin-top: 85vh;
-	text-align: center;
-}
-.textbox h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: bold;
-	margin-top: 1vh;
-}
-.textbox p {
-	font-family: 'ubuntu', sans-serif;
-	margin-top: -10px;
-}
-.textbox2 {
-	height: 15vh;
-	width: 50vw;
-	background-color: rgba(0,0,0,0.60);
-	color: white;
-	float: left;
-	margin-left: -1.1vw;
-	margin-top: 85vh;
-	text-align: center;
-	padding-bottom: 10vh;
-}
-.vincafelink {
-	height: 100vh;
-	width: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe2.jpg);
-}
-.vincafelink:hover {
-	height: 100vh;
-	width: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.logo {
-	position: fixed;
-	margin-left: 36vw;
-	margin-top: 30vh;
-	z-index: 50;
-}
-.logo img {
-	margin-left: -2vw;
-	height: 30vh;
-}
-/*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
-/*Stor video*/
-.storvideo {
-	height: 100vh;
-	z-index: -10;
-	margin: auto;
-	width: 100vw;
-}
-.storvideo video {
-	width: 100vw;
-	position: fixed;
-	z-index: -10;
-}
-/*velkomskassen*/
-.velkommen1 {
-	padding-bottom: 3em;
-	border-bottom: 2px solid black;
-}
-.velkommen2 {
-	margin-top: 20px;
-}
-.hvemervi {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-.abningstider {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-.velkomstkasse {
-	background-image: url(../images/paper.png);
-	background-size: cover;
-	margin-top: -70px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-/*Menukort*/
-.carousel-caption {
-	max-width: 600px;
-	margin: auto;
-}
-.menucarousel {
-	margin-bottom: 30px;
-}
-#menu {
-	font-family: Grumble;
-}
-#menu table, #menu p, #menu a {
-	font-size: 22px;
-}
-#menu h3 {
-	font-size: 32px;
-}
-#menu h4 {
-	font-size: 28px;
-}
-#menuindhold table {
-	margin-bottom: 20px;
-	border-top: 2px solid white;
-	padding-top: 10px;
-}
-tr {
-	line-height: 2em;
-}
-#menuindhold {
-	margin-top: 40px;
-	line-height: 1.75em;
-}
-#menu h4 {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top: 0px;
-}
-.tavle {
-	background-color: rgba(51,51,51,1.00);
-	color: white;
-	padding: 80px 20px 40px;
-}
-.tavle a {
-	color: white;
-}
-.tavle a:hover, .tavle a:visited:hover {
-	color: white;
-}
-.tavle a:visited {
-	color: white;
-}
-/*sort kasse styling*/
-
-.boks {
-	background-color: rgba(0,0,0,0.70);
-	color: white;
-}
-.carousel-inner .boks, .smagning {
-	padding: 40px;
-}
-/*nav - header.php*/
-
-
-.lydknapper img {
-	width: 30px;
-}
-.lydknapper img:hover {
-	cursor: pointer;
-}
-nav ul {
-	list-style: none;
-	float: right;
-	margin-top: 30px;
-	padding: 0px;
-}
-nav ul li {
-	float: left;
-	padding: 10px 30px;
-}
-nav a {
-	color: white;
-	font-size: 18px;
-}
-nav a:hover, nav a:visited:hover {
-	color: white;
-}
-#logo {
-	float: left;
-	width: 100%;
-	max-width: 300px;
-	position: absolute;
-	margin: 10px;
-}
-.nav2 {
-	display: none;
-	width: 150px;
-	float: right;
-	color: white;
-	margin-top: 30px;
-}
-.nav2 li, .nav2 .panel-heading {
-	height: 60px;
-}
-.nav2 .panel-group .panel {
-	border-radius: 0px;
-}
-.panel a, .panel a:hover, .panel a:visited, .panel a:visited:hover {
-	color: white;
-	text-decoration: none;
-}
-.nav2 .boks {
-	padding: 10px;
-}
-.nav2 .list-group-item {
-	background-color: transparent;
-	border: none;
-}
-.nav2 .panel-default {
-	background-color: transparent;
-}
-.panel {
-	background-color: transparent;
-}
-.nav2 .panel-title {
-	padding: 20px;
-	padding-top: 10px;
-}
-/*Styling af knapper*/
-
-.btn-custom, .btn-custom:visited {
-	border: 2px solid white;
-	color: white;
-	border-radius: 0px;
-	margin: 0px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.btn-custom:hover, .btn-custom:visited:hover {
-	color: white;
-	cursor: pointer;
-	border: 2px solid #700a29;
-}
-.menukortknapper .btn-custom:hover, .menukortknapper .btn-custom:visited:hover {
-	border: 2px solid grey;
-}
-.btn-custom2, .btn-custom2:visited {
-	border: 2px solid black;
-	color: black;
-	border-radius: 0px;
-	margin: 0px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: transparent;
-	height: 3em;
-	width: 100px;
-	font-size: 16px;
-}
-.btn-custom2:hover, .btn-custom2:visited:hover {
-	border: 2px solid #700a29;
-}
-/*footer*/
-
-footer .row {
-	margin-top: 30px;
-}
-footer {
-	background-color: #700a29;
-	color: white;
-	line-height: 2em;
-}
-footer a, footer a:hover, footer a:visited:hover {
-	color: white;
-}
-footer .text-center {
-	border-top: 2px solid white;
-	padding-top: 20px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-/* google maps*/
-
-#map {
-	height: 450px;
-	width: 100%;
-}
-/*VINCAFE UNDERSIDEN*/
-
-
-
-#vinsite .container-fluid {
-	padding: 0;
-}
-#smagningid {
-	background-image: url(../images/vincafeglas.jpg);
-	background-size: cover;
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-#vinmenucarousel .item img {
-	min-width: 300px;
-}
-/*KONTAKT UNDEDRSIDE*/
-.kontaktspalte .velkommen1 {
-	margin-bottom: 40px;
-}
-.navbillede {
-	height: 70vh;
-	background-image: url(../images/IMG_0766.JPG);
-	background-size: cover;
-	
-}
-.kontaktspalte img {
-	width: 200px;
-}
-.mereloeves img {
-	width: 200px;
-}
-.kontaktrow {
-	text-align: center;
-	padding-top: 20px;
-}
-.kontaktformular {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-form {
-	font-size: 16px;
-}
-input, textarea {
-	padding: 8px;
-	border: 0;
-	width: 100%;
-	border-radius: 2px;
-}
-input {
-	height: 2.5em;
-}
-/*BOGCAFE UNDERSIDE*/
-
-.bogmenuimg {
-	padding-bottom: 30px;
-}
-/*instagramfeed og overlay*/
-/*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
-.instagramfeed {
-	background-color: white;
-}
-.instagramfeed img {
-	padding-right: 0;
-	padding-left: 0;
-	border: 1vw solid white;
-	max-height: 55vh;
-}
-.overlay {
-	position: absolute;
-	top: 0.5vh;
-	bottom: 0;
-	left: 3vh;
-	right: 0;
-	height: 98%;
-	width: 25vw;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: rgba(112,10,41,0.8);
-}
-.container:hover .overlay {
-	opacity: 1;
-}
-.instagramicon img {
-	color: white;
-	border: hidden;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width:767px) {
-/*Forside på Mobil side*/
-
-.vincafelink {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.bogcafelink {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.bogcafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-image: url(../images/IMG_0760.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.vincafelink:hover {
-	height: 50vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url(../images/vincafe1.jpg);
-}
-.textbox1 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.85);
-	color: white;
-	float: right;
-	margin-top: 10vh;
-	margin-right: -4vw;
-	font-size-adjust: auto;
-}
-.textbox2 {
-	height: 10vh;
-	width: 70vw;
-	background-color: rgba(0,0,0,0.70);
-	color: white;
-	float: left;
-	margin-top: 30vh;
-	margin-left: -5vw;
-}
-.textbox h3 {
-	margin-top: 7%;
-}
-.logo {
-	position: fixed;
-	margin-left: -5vw;
-	margin-top: 39vh;
-	z-index: 50;
-}
-.logo img {
-	height: 30vh;
-	width: auto;
-}/*Velkomskasser*/
-.velkomstkasse {
-	background-image: url(../images/paper2.png);
-}
-.velkommen2 {
-	text-align: center;
-}
-/*kontakt.php siden*/
-
-
-.kontaktrow, .kontaktformular {
-	border-top: 2px solid black;
-	margin-top: 30px;
-}
-.deloplevelsen {
-	text-align: center;
-	border-top: 2px solid white;
-	margin-top: 40px;
-}
-/*instagramfeed på bogcafe.php*/
-.instagramfeed img {
-	padding-right: 0;
-	padding-left: 0;
-	border: 1vw solid white;
-	max-height: 55vh;
-}
-.overlay {
-	position: absolute;
-	top: 0.5vh;
-	bottom: 0;
-	left: 3vh;
-	right: 0;
-	height: 98%;
-	width: 50vw;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: rgba(112,10,41,0.0);
-}
-.container:hover .overlay {
-	opacity: 1;
-}
-.instagramicon img {
-	color: white;
-	border: hidden;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-}
-
-@media screen and (max-width:1270px) {
-.storvideo video {
-	height: 100vh;
-	width: auto;
-	margin: auto;
-}
-}
-
-@media screen and (max-width:950px) {
-nav {
-	display: none;
-}
-.nav2 {
-	display: block;
-}
-.storvideo video {
-	display: none;
-}
-#bogvideo {
-	background-image: url(../images/../images/kauselmobil3.jpg);
-	background-size: cover;
-	height: 70vh;
-	margin-bottom: -200px;
-}
-#vinvideo {
-	background-image: url(../images/vin3.jpg);
-	background-size: cover;
-	height: 70vh;
-	margin-bottom: -200px;
-}
-}
-
-@media screen and (max-width:505px) {
-.nav2 {
-	width: 30vw;
-}
-#logo {
-	width: 60vw;
-}
-}
+@font-face {
+    font-family: Grumble;
+    src: url(../fonts/grumble_tt.ttf);
+}
+/*BASICS*/
+
+body {
+	font-family: Ubuntu;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#indexsite body {
+	overflow: hidden;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h3 {
+	font-weight: 500;
+}
+a {
+	color: black;
+}
+a:hover, a:visited:hover {
+	color: black;
+}
+p, table {
+	font-size: 16px;
+}
+/*http://codepen.io/thetallweeks/pen/EaBpx*/ 
+/*styling af scrollbaren*/
+::-webkit-scrollbar {
+ width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+ background-color: rgba(51,51,51,1);
+}
+
+::-webkit-scrollbar-thumb {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ background: rgba(112,10,41,1);
+}
+/*Forsiden på laptop*/
+
+
+.bogcafelink{
+	height: 100vh;
+	width: 50%;
+	background-image: url(../images/bogcafe2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bogcafelink:hover {
+	height: 100vh;
+	width: 50%;
+	background-image: url(../images/IMG_0760.JPG);
+}
+.textbox1 {
+	height: 15vh;
+	width: 52vw;
+	background-color: rgba(0,0,0,0.60);
+	color: white;
+	float: left;
+	margin-left: -2vw;
+	margin-top: 85vh;
+	text-align: center;
+}
+.textbox h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-top: 1vh;
+}
+.textbox p {
+	font-family: 'ubuntu', sans-serif;
+	margin-top: -10px;
+}
+.textbox2 {
+	height: 15vh;
+	width: 50vw;
+	background-color: rgba(0,0,0,0.60);
+	color: white;
+	float: left;
+	margin-left: -1.1vw;
+	margin-top: 85vh;
+	text-align: center;
+	padding-bottom: 10vh;
+}
+.vincafelink {
+	height: 100vh;
+	width: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe2.jpg);
+}
+.vincafelink:hover {
+	height: 100vh;
+	width: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.logo {
+	position: fixed;
+	margin-left: 36vw;
+	margin-top: 30vh;
+	z-index: 50;
+}
+.logo img {
+	margin-left: -2vw;
+	height: 30vh;
+}
+/*FÆLLES TING FOR UNDERSIDERNE - de classes og id'er der går ingen på flere undersider*/
+/*Stor video*/
+.storvideo {
+	height: 100vh;
+	z-index: -10;
+	margin: auto;
+	width: 100vw;
+}
+.storvideo video {
+	width: 100vw;
+	position: fixed;
+	z-index: -10;
+}
+/*velkomskassen*/
+.velkommen1 {
+	padding-bottom: 3em;
+	border-bottom: 2px solid black;
+}
+.velkommen2 {
+	margin-top: 20px;
+}
+.hvemervi {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.abningstider {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.velkomstkasse {
+	background-image: url(../images/paper.png);
+	background-size: cover;
+	margin-top: -70px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+/*Menukort*/
+.carousel-caption {
+	max-width: 600px;
+	margin: auto;
+}
+.menucarousel {
+	margin-bottom: 30px;
+}
+#menu {
+	font-family: Grumble;
+}
+#menu table, #menu p, #menu a {
+	font-size: 22px;
+}
+#menu h3 {
+	font-size: 32px;
+}
+#menu h4 {
+	font-size: 28px;
+}
+#menuindhold table {
+	margin-bottom: 20px;
+	border-top: 2px solid white;
+	padding-top: 10px;
+}
+tr {
+	line-height: 2em;
+}
+#menuindhold {
+	margin-top: 40px;
+	line-height: 1.75em;
+}
+#menu h4 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+}
+.tavle {
+	background-color: rgba(51,51,51,1.00);
+	color: white;
+	padding: 80px 20px 40px;
+}
+.tavle a {
+	color: white;
+}
+.tavle a:hover, .tavle a:visited:hover {
+	color: white;
+}
+.tavle a:visited {
+	color: white;
+}
+/*sort kasse styling*/
+
+.boks {
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+}
+.carousel-inner .boks, .smagning {
+	padding: 40px;
+}
+/*nav - header.php*/
+
+
+.lydknapper img {
+	width: 30px;
+}
+.lydknapper img:hover {
+	cursor: pointer;
+}
+nav ul {
+	list-style: none;
+	float: right;
+	margin-top: 30px;
+	padding: 0px;
+}
+nav ul li {
+	float: left;
+	padding: 10px 30px;
+}
+nav a {
+	color: white;
+	font-size: 18px;
+}
+nav a:hover, nav a:visited:hover {
+	color: white;
+}
+#logo {
+	float: left;
+	width: 100%;
+	max-width: 300px;
+	position: absolute;
+	margin: 10px;
+}
+.nav2 {
+	display: none;
+	width: 150px;
+	float: right;
+	color: white;
+	margin-top: 30px;
+}
+.nav2 li, .nav2 .panel-heading {
+	height: 60px;
+}
+.nav2 .panel-group .panel {
+	border-radius: 0px;
+}
+.panel a, .panel a:hover, .panel a:visited, .panel a:visited:hover {
+	color: white;
+	text-decoration: none;
+}
+.nav2 .boks {
+	padding: 10px;
+}
+.nav2 .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+.nav2 .panel-default {
+	background-color: transparent;
+}
+.panel {
+	background-color: transparent;
+}
+.nav2 .panel-title {
+	padding: 20px;
+	padding-top: 10px;
+}
+/*Styling af knapper*/
+
+.btn-custom, .btn-custom:visited {
+	border: 2px solid white;
+	color: white;
+	border-radius: 0px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.btn-custom:hover, .btn-custom:visited:hover {
+	color: white;
+	cursor: pointer;
+	border: 2px solid #700a29;
+}
+.menukortknapper .btn-custom:hover, .menukortknapper .btn-custom:visited:hover {
+	border: 2px solid grey;
+}
+.btn-custom2, .btn-custom2:visited {
+	border: 2px solid black;
+	color: black;
+	border-radius: 0px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	height: 3em;
+	width: 100px;
+	font-size: 16px;
+}
+.btn-custom2:hover, .btn-custom2:visited:hover {
+	border: 2px solid #700a29;
+}
+/*footer*/
+
+footer .row {
+	margin-top: 30px;
+}
+footer {
+	background-color: #700a29;
+	color: white;
+	line-height: 2em;
+}
+footer a, footer a:hover, footer a:visited:hover {
+	color: white;
+}
+footer .text-center {
+	border-top: 2px solid white;
+	padding-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/* google maps*/
+
+#map {
+	height: 450px;
+	width: 100%;
+}
+/*VINCAFE UNDERSIDEN*/
+
+
+
+#vinsite .container-fluid {
+	padding: 0;
+}
+#smagningid {
+	background-image: url(../images/vincafeglas.jpg);
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#vinmenucarousel .item img {
+	min-width: 300px;
+}
+/*KONTAKT UNDEDRSIDE*/
+.kontaktspalte .velkommen1 {
+	margin-bottom: 40px;
+}
+.navbillede {
+	height: 70vh;
+	background-image: url(../images/IMG_0766.JPG);
+	background-size: cover;
+	
+}
+.kontaktspalte img {
+	width: 200px;
+}
+.mereloeves img {
+	width: 200px;
+}
+.kontaktrow {
+	text-align: center;
+	padding-top: 20px;
+}
+.kontaktformular {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+form {
+	font-size: 16px;
+}
+input, textarea {
+	padding: 8px;
+	border: 0;
+	width: 100%;
+	border-radius: 2px;
+}
+input {
+	height: 2.5em;
+}
+/*BOGCAFE UNDERSIDE*/
+
+.bogmenuimg {
+	padding-bottom: 30px;
+}
+/*instagramfeed og overlay*/
+/*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
+.instagramfeed {
+	background-color: white;
+}
+.instagramfeed img {
+	padding-right: 0;
+	padding-left: 0;
+	border: 1vw solid white;
+	max-height: 55vh;
+}
+.overlay {
+	position: absolute;
+	top: 0.5vh;
+	bottom: 0;
+	left: 3vh;
+	right: 0;
+	height: 98%;
+	width: 25vw;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(112,10,41,0.8);
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+.instagramicon img {
+	color: white;
+	border: hidden;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:767px) {
+/*Forside på Mobil side*/
+
+.vincafelink {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.bogcafelink {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bogcafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../images/IMG_0760.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vincafelink:hover {
+	height: 50vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/vincafe1.jpg);
+}
+.textbox1 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.85);
+	color: white;
+	float: right;
+	margin-top: 10vh;
+	margin-right: -4vw;
+	font-size-adjust: auto;
+}
+.textbox2 {
+	height: 10vh;
+	width: 70vw;
+	background-color: rgba(0,0,0,0.70);
+	color: white;
+	float: left;
+	margin-top: 30vh;
+	margin-left: -5vw;
+}
+.textbox h3 {
+	margin-top: 7%;
+}
+.logo {
+	position: fixed;
+	margin-left: -5vw;
+	margin-top: 39vh;
+	z-index: 50;
+}
+.logo img {
+	height: 30vh;
+	width: auto;
+}/*Velkomskasser*/
+.velkomstkasse {
+	background-image: url(../images/paper2.png);
+}
+.velkommen2 {
+	text-align: center;
+}
+/*kontakt.php siden*/
+
+
+.kontaktrow, .kontaktformular {
+	border-top: 2px solid black;
+	margin-top: 30px;
+}
+.deloplevelsen {
+	text-align: center;
+	border-top: 2px solid white;
+	margin-top: 40px;
+}
+/*instagramfeed på bogcafe.php*/
+.instagramfeed img {
+	padding-right: 0;
+	padding-left: 0;
+	border: 1vw solid white;
+	max-height: 55vh;
+}
+.overlay {
+	position: absolute;
+	top: 0.5vh;
+	bottom: 0;
+	left: 3vh;
+	right: 0;
+	height: 98%;
+	width: 50vw;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(112,10,41,0.0);
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+.instagramicon img {
+	color: white;
+	border: hidden;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (max-width:1270px) {
+.storvideo video {
+	height: 100vh;
+	width: auto;
+	margin: auto;
+}
+}
+
+@media screen and (max-width:950px) {
+nav {
+	display: none;
+}
+.nav2 {
+	display: block;
+}
+.storvideo video {
+	display: none;
+}
+#bogvideo {
+	background-image: url(../images/../images/kauselmobil3.jpg);
+	background-size: cover;
+	height: 70vh;
+	margin-bottom: -200px;
+}
+#vinvideo {
+	background-image: url(../images/vin3.jpg);
+	background-size: cover;
+	height: 70vh;
+	margin-bottom: -200px;
+}
+}
+
+@media screen and (max-width:505px) {
+.nav2 {
+	width: 30vw;
+}
+#logo {
+	width: 60vw;
+}
+}
