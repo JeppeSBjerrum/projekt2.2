@@ -6,7 +6,7 @@ include( "header.php" )
 <!--STORT BILLEDE ISTEDET FOR EN VIDEO-->
 <div class="navbillede"></div>
 <!--ØVERSTE TEKSTKASSE MED PAPIRBAGGRUND-->
-<div class="velkomstkasse">
+<div class="velkomstkasse kontaktvelkomst">
 	<div class="container">
 		<div class="row">
 

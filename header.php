@@ -23,7 +23,8 @@
   <a href="index.html"><img src="<?php echo $pagelogo;?>" alt="" id="logo"></a>
   <nav>
   <ul class="boks">
-  <li class="lydknapper"><img src="images/playbutton.png" alt="afspil musik" onClick="playAudio()"> <img src="images/mutebutton2.png" alt="sluk musikken" onClick="pauseAudio()"></li> 
+  <li class="lydknapper"><img src="images/playbutton.png" alt="afspil musik" onClick="playAudio()"> 
+ 		<img src="images/mutebutton2.png" alt="sluk musikken" onClick="pauseAudio()"></li> 
   		<li><a href="bogcafe.php">Bog- og Vincafé</a></li>
   		<li><a href="vincafe.php">Vincaféen</a></li>
   	<li><a href="kontakt.php">Kontakt</a></li>
@@ -37,9 +38,9 @@
 <div class="panel-group">
   <div class="panel">
     <div class="panel-heading boks">
-      <h4 class="panel-title">
+      <div class="panel-title">
         <a data-toggle="collapse" href="#collapse1"><img src="images/burgermenu.png" width="25px" alt=""></a>
-      </h4>
+      </div>
     </div>
     <div id="collapse1" class="panel-collapse collapse boks">
       <ul class="list-group">

@@ -25,7 +25,7 @@ function pauseAudio() {
 //variabler for indholdet på menukortet
 //VINCAFÉ UNDERSIDEN
 //Menupunkt: Vinkort
-var vinvinkortet = '<h3 class="col-xs-12">Vinkort</h3><p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br> <a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><br><br><a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på glas</a><br><br><a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin ud af huset</a><img src="images/winebottle.png" alt="" width="150px" class="pull-right"></p>';
+var vinvinkortet = '<h3 class="col-xs-12">Vinkort</h3><p class="col-xs-12">Vi har pt. 217 forskellige vine, som alle sælges både per glas og flaske.<br><br><br> <a href="vinkort.pdf" target="_blank" class="btn-custom btn">Vinkort: Vin på flaske</a><img src="images/winebottle.png" alt="" width="150px" class="pull-right"></p>';
 //Menupunkt: Lørdagsmad
 var vinlordagsmad = '<h3>Lørdagsmad på Vincaféen</h3><p>8. april: And med citronmelisse, jordskokker og løg<br><br>22. april: Okse med persille, persillerod og svampe<br><br>6. maj: Kylling med asparges og spinat<br><br>20. maj: Lam med blomkål, gulerødder og salvie<br><br>3. juni: Kalv med ærter, løg og spidskål</p><br><p><strong>Bordbestilling</strong> sker i Vincaféen eller på vincafeen@loeves.dk<br>Efter først-til-mølle princip<img src="images/wine.png" alt="" width="200px" class="pull-right"></p>';
 //Menupunkt: Drikke

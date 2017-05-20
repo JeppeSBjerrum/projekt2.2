@@ -76,7 +76,8 @@ vincafeen@loeves.dk</a><br>
 	<br>
 <br>
 
-	<a href="http://www.jungild.dk/">Denne hjemmeside er lavet som eksamensprojekt og kan ikke sættes i forbindelse med Løve's</a> - <?php echo date('Y');?>
+	<a href="http://www.jungild.dk/">Denne hjemmeside er lavet som eksamensprojekt og kan ikke sættes i forbindelse med Løve's</a> - 
+	<?php echo date('Y');?>
 </div>
 </div>
 </footer>

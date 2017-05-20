@@ -1,11 +1,8 @@
 <?php
 
 $pagetitle = 'Vincaféen';
-
 $pagelogo = 'images/vincafelogohvidskygge.png';
-
 $menufunktion = 'vvinkort()';
-
 include( "header.php" );
 
 ?>
@@ -37,7 +34,7 @@ include( "header.php" );
 		<div class="row">
 			<div class="col-xs-12 text-center velkommen1">
 				<h1>Velkommen til Vincaféen</h1>
-				<h2>- Nyd vin fra hele verdenen!</h2>
+				<h2>- Nyd vin fra hele verden!</h2>
 			</div>
 		</div>
 		<div class="row velkommen2">

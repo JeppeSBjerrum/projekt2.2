@@ -360,9 +360,10 @@ footer .text-center {
 	margin-bottom: 40px;
 }
 .navbillede {
-	height: 60vh;
+	height: 70vh;
 	background-image: url(../images/IMG_0766.JPG);
 	background-size: cover;
+	
 }
 .kontaktspalte img {
 	width: 200px;
