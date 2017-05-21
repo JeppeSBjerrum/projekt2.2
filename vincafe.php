@@ -84,7 +84,7 @@ include( "header.php" );
 			</div>
 			<div class="col-sm-4 hvemervi hidden-xs">
 				<h3>Om Løve's</h3>
-				<p>Løve's blev etableret i Århus i 2008, men stammer egentligt helt tilbage fra 2004, hvor idéerne først opstod hos grundlæggeren. <br>
+				<p>Løve's blev etableret i Aarhus i 2008, men stammer egentligt helt tilbage fra 2004, hvor idéerne først opstod hos grundlæggeren. <br>
 					<br> Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte sig ind i hjertet på et dreng tilbage i 80'erne.</p>
 			</div>
 		</div>
