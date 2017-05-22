@@ -1,4 +1,5 @@
 <?php
+$metadescription = 'ontakt Løve’s Caféer. Her finder du os på Borggade 14 og Nørregade 32 begge i Århus C. Du kan finde vores åbningstider på siden og kontakte os.';
 $pagetitle = 'Kontakt Løve´s';
 $pagelogo = 'images/loeveslogohvidskygge.png';
 include( "header.php" )

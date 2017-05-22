@@ -1,4 +1,5 @@
 <?php
+$metadescription = 'Bare bliv siddende. Løves Bog- og Vincafé i århus kan man sidde og læse en bog i hyggelige omgrivelser. Der er massere af bøger i vores boghandel og vi har et lokale fyldt med særligt udvalgte vin til vores vinhandel. I Caféen har vi varme drikke og god mad. Kom og spis frokost eller morgenmad her.';
 $pagetitle = 'Løve´s Bog- og Vincafé';
 $pagelogo = 'images/bogcafelogohvidskygge.png';
 $menufunktion = 'bvarmt()';

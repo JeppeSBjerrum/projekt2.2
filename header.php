@@ -5,6 +5,9 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="<?php echo $metadescription;?>">
+	<meta name="keywords" content="Bøger, books, vin, wine, cafe, aarhus, bogklub, hygge, boghandel, vinhandel, deli, løve, løves, loeves, bogcafe, studiemiljø, studievenlig, vincafe, roligt, retro, mad, drikke, kaffe, brødrende løvehjerte, litteratur, drikkevare, varmt, koldt, bytur, byen, smilets by, nørregade, borggade">
+	<meta name="author" content="Løve's">
    <!--title-->
     <title> <?php echo $pagetitle;?> </title>
     <!--Skrifttyper-->

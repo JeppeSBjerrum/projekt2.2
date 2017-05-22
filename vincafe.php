@@ -1,5 +1,5 @@
 <?php
-
+$metadescription = 'Nyd et godt glas vin på Løve’s Vincaféen i Århus. Vi har et stort udvalg 217 vine fra europa og autralien. Vores udvalg inkludere rødvin, hvidvin, desertvin, rosé og vin med bobler/champange. Der bliver serveret god mad hver aften og særligt om lørdagen laver vi Lørdagsmad. Vi har restaurent, café og bar. Kom også og smag vores Økoligiske øl. ';
 $pagetitle = 'Vincaféen';
 $pagelogo = 'images/vincafelogohvidskygge.png';
 $menufunktion = 'vvinkort()';
