@@ -19,40 +19,32 @@ include( "header.php" )
 
 			<div class="col-sm-6 kontaktformular">
 				
-				<form method="post" action="http://www.jungild.dk/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
+				<form method="post" action="http://www.jungild.dk/cgi-bin/FormMail.pl" 
+accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
 document.charset = 'ISO-8859-1'; 
 window.onbeforeunload = function () {document.charset=originalCharset;};">
-
-					<div class="form-group">
-						<label for="form_name">Navn *</label>
-
-						<input name="realname"/>
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<label for="form_email">Email *</label>
-
-						<input name="email"/>
-						<div class="help-block with-errors"></div>
-					</div>
-
-					<div class="form-group">
-						<label for="form_message">Din besked *</label><br>
-
-						<textarea cols="40" rows="10" name="Message"></textarea>
-						<div class="help-block with-errors"></div>
-					</div>
-
-
-
-					<input type="submit" class="btn-custom2" value="Send"/>
-					<input type="hidden" name="recipient" value="kim@jungild.dk"/>
-					<input type="hidden" name="subject" value="Subject"/>
-					<input type="hidden" name="redirect" value="http://www.jungild.dk/kontakt.php"/>
-					<input type="hidden" name="missing_fields_redirect" value="http://www.jungild.dk/loeves/kontakt.php"/>
-
-					<input type="hidden" name="required" value="realname,email,message"/>
-				</form>
+Navn
+<br />
+<input name="realname" />
+<br />
+<br>E-mail
+<br />
+<input name="email" />
+<br />
+<br>Meddelelse
+<br />
+<textarea cols="40" rows="10" name="Message"></textarea>
+<br />
+<br>
+<input type="submit" value="Send" class="btn-custom2"/>
+<input type="hidden" name="recipient" value="kim@jungild.dk" />
+<input type="hidden" name="subject" value="Subject" />
+<input type="hidden" name="redirect" 
+value="http://www.jungild.dk" />
+<input type="hidden" name="missing_fields_redirect" 
+value="http://www.jungild.dk/svalbard" />
+<input type="hidden" name="required" value="realname,email,Message" />
+</form>
 			</div>
 			
 			<div class="col-sm-3 kontaktrow">
@@ -62,7 +54,7 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 
 
 				<p>Løve's Bog- og VinCafé<br> Nørregade 32<br> 8000 Århus C<br>
-					<br> <a href="callto:+4527831633">27 83 16 33</a><br> <a href="mailto:aa-cafe@loeves.dk">aa-cafe@loeves.dk</a>
+					<br> <a href="callto:+4527831633">Tlf.: 27 83 16 33</a><br> <a href="mailto:aa-cafe@loeves.dk">aa-cafe@loeves.dk</a>
 
 				</p><br>
 
@@ -79,7 +71,7 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 
 					<p> Vincaféen<br> Borggade 14<br> 8000 Århus C
 						<br>
-						<br> <a href="callto:+4552175016">52 17 50 16</a><br> <a href="mailto:vincafeen@loeves.dk">vincafeen@loeves.dk</a>
+						<br> <a href="callto:+4552175016">Tlf.: 52 17 50 16</a><br> <a href="mailto:vincafeen@loeves.dk">vincafeen@loeves.dk</a>
 
 					</p><br>
 
@@ -103,14 +95,14 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Antikvariat</h3>
 				<p>
-					Løve's Antikvariat<br>Høegh-Guldbergs Gade 71<br>8000 Århus C<br><br><a href="callto:+4527831634">27 83 16 34</a><br><a href="mailto:aa-antik@loeves.dk">aa-antik@loeves.dk</a>
+					Løve's Antikvariat<br>Høegh-Guldbergs Gade 71<br>8000 Århus C<br><br><a href="callto:+4527831634">Tlf.: 27 83 16 34</a><br><a href="mailto:aa-antik@loeves.dk">aa-antik@loeves.dk</a>
 				</p>
 			</div>
 			<div class="col-sm-4">
 				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Hotel Carmel</h3>
 				<p>Hotel Carmel<br>Nørre Allé 23c/Klosterport 6<br> 8000 Århus C<br>
-					<br><a href="callto:+4530547220">30 54 72 20</a><br><a href="mailto:info@hotelcarmel.dk">info@hotelcarmel.dk</a>
+					<br><a href="callto:+4530547220">Tlf.: 30 54 72 20</a><br><a href="mailto:info@hotelcarmel.dk">info@hotelcarmel.dk</a>
 
 				</p>
 			</div>
@@ -118,7 +110,7 @@ window.onbeforeunload = function () {document.charset=originalCharset;};">
 				<img src="images/loeveslogohvid.png" alt="">
 				<h3>Løve's Forlag</h3>
 				<p>Løvens Forlag<br> Borggade 14<br> 8000 Århus C<br>
-					<br> <a href="callto:+4530547220">30 54 72 20</a><br>
+					<br> <a href="callto:+4530547220">Tlf.: 30 54 72 20</a><br>
 					<a href="mailto:info@loevensforlag.dk">info@loevensforlag.dk</a>
 
 				</p>

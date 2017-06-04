@@ -119,7 +119,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 		</div>
 
 		<div class="item">
-			<img src="images/carouselbillede1.JPG" class="hidden-xs" alt="">
+			<img src="images/carouselbillede1.jpg" class="hidden-xs" alt="">
 			<img src="images/kauselmobil4.jpg" class="hidden-sm hidden-md hidden-lg" alt="">
 			<div class="carousel-caption boks">
 				<h3>Y Aarhus Poetry Club</h3>
@@ -189,7 +189,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
-  <img src="images/Udklip.JPG" alt="Avatar" class="instagramimage">
+  <img src="images/Udklip.jpg" alt="Avatar" class="instagramimage">
   <div class="overlay">
     <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
   </div>
@@ -197,7 +197,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 </div>
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
-  <img src="images/Udklip2.JPG" alt="Avatar" class="instagramimage">
+  <img src="images/Udklip2.jpg" alt="Avatar" class="instagramimage">
   <div class="overlay">
     <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
   </div>
@@ -205,7 +205,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 </div>
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
-  <img src="images/Udklip3.JPG" alt="Avatar" class="instagramimage">
+  <img src="images/Udklip3.jpg" alt="Avatar" class="instagramimage">
   <div class="overlay">
     <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
   </div>
@@ -213,7 +213,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 </div>
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
-  <img src="images/Udklip4.JPG" alt="Avatar" class="instagramimage">
+  <img src="images/Udklip4.jpg" alt="Avatar" class="instagramimage">
   <div class="overlay">
     <div class="instagramicon"><img src="images/iglogo.png" width="100px" alt=""></div>
   </div>
