@@ -185,7 +185,12 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
 		</div>
 	</div>
 </div>
-<div class="row instagramfeed hidden-xs">
+<!-- LightWidget WIDGET -->
+<div class="igiframe hidden-xs hidden-sm">
+	<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6efdbd3484dc5d1a867fcf0bc2fd9d79.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe> 
+</div>
+<!--
+<div class="row instagramfeed hidden-xs hidden">
 
 <div class="container col-sm-3 col-xs-6 col-md-3">
  <a href="https://www.instagram.com/lovesbogogvincafe/">
@@ -219,7 +224,7 @@ Navnet Løve's kommer som inspiration fra Brødrene Løvehjerte, der brændte si
   </div>
 	</a>
 </div>
-</div>
+</div>-->
 
 <!--FOOTER-->
 <footer>

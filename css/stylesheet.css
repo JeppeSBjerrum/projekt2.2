@@ -420,7 +420,9 @@ input {
 }
 /*BOGCAFE UNDERSIDE*/
 
-
+.igiframe {
+	background-color: #700a29;
+}
 
 .bogmenuimg {
 	padding-bottom: 30px;
