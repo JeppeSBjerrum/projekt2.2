@@ -30,6 +30,15 @@ Navn
 <br>E-mail
 <br />
 <input name="email" />
+<br><br>
+
+Angående
+<br>
+ <select name="topic">
+  <option value="bogcafe">Løve's Bog- og Vincafé</option>
+  <option value="vincafe">Vincaféen</option>
+  <option value="andet">Andet</option>
+</select>
 <br />
 <br>Meddelelse
 <br />
@@ -43,7 +52,7 @@ Navn
 value="http://www.jungild.dk" />
 <input type="hidden" name="missing_fields_redirect" 
 value="http://www.jungild.dk/svalbard" />
-<input type="hidden" name="required" value="realname,email,Message" />
+<input type="hidden" name="required" value="realname,email,Message,topic" />
 </form>
 			</div>
 			

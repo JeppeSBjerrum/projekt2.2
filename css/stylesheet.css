@@ -409,7 +409,10 @@ footer .text-center {
 form {
 	font-size: 16px;
 }
-input, textarea {
+select, input {
+	height: 3em;
+}
+input, textarea, select {
 	padding: 8px;
 	border: 0;
 	width: 100%;
