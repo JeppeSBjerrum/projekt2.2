@@ -85,7 +85,7 @@ value="http://www.jungild.dk/svalbard" />
 					</p><br>
 
 
-					<p><strong>Åbningstider</strong> <br> Mandag: Lukket <br> Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag: Lukket
+					<p><strong>Åbningstider</strong> <br>  Tirsdag: 16-22 <br> Onsdag: 16-22 <br> Torsdag: 16-24 <br> Fredag: 15-24 <br> Lørdag: 15-24 <br> Søndag-Mandag: Lukket
 					</p>
 
 				</div>

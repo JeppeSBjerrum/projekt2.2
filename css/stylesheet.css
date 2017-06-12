@@ -132,12 +132,13 @@ p, table {
 	height: 100vh;
 	z-index: -10;
 	margin: auto;
-	width: 100vw;
 }
 .storvideo video {
-	width: 100vw;
+	min-height: 100vh;
 	position: fixed;
 	z-index: -10;
+	overflow: hidden;
+	min-width: 100vw;
 }
 /*velkomskassen*/
 
@@ -264,10 +265,13 @@ nav a:hover, nav a:visited:hover {
 }
 .nav2 {
 	display: none;
-	width: 150px;
-	float: right;
+	width: 30%;
+	position: fixed;
+	margin-left: 70%;
 	color: white;
 	margin-top: 30px;
+	z-index: 100;
+	overflow: hidden;
 }
 .nav2 li, .nav2 .panel-heading {
 	height: 60px;

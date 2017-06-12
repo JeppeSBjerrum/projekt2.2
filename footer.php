@@ -72,7 +72,7 @@ vincafeen@loeves.dk</a><br>
 	
 </div>
 <div class="text-center col-xs-12">
-	Credit: Music by http://www.bensound.com
+	Credit: Music by <a href="http://www.bensound.com">http://www.bensound.com</a>
 	<br>
 <br>
 

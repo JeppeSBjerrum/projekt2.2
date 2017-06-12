@@ -237,11 +237,13 @@ include( "header.php" );
 
 			<div class="col-xs-12 col-sm-6 boks smagning">
 
-				<h2>Privat vinsmagning</h2>
+				<h2>Privat arrangement</h2>
 
-				<p>Hvis du mangler et sted at holde din fest, fødselsdag, reception, polterabend, konfirmation eller andet selskabelighed, så har vi lokalerne til dig. I hyggelige og rustikke omgivelser tilbyder vi ikke blot et lokale med plads til mere end 30 personer, men også en velrustet bar, et godt køkken og ikke mindst søde vintjenere.
+				<p> I hyggelige og rustikke omgivelser tilbyder vi ikke blot et lokale med plads til mere end 30 personer, men også en velrustet bar, et godt køkken og ikke mindst søde vintjenere til din fest, fødselsdag, reception, polterabend, konfirmation eller andet selskabelighed.<br>
 
-					<br> Lokalerne kan bookes fra mandag til fredag i tidsrummet 9-24, lørdag 10-24 samt om søndagen fra 10-18.<br> Kontakt os blot med dine ønsker og så stykker vi din begivenhed sammen efter dine behov.<br>
+
+					<br> Lokalerne kan bookes fra mandag til fredag i tidsrummet 9-24, lørdag 10-24 samt om søndagen fra 10-18.<br> 
+					
 					<br>
 
 
